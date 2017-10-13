@@ -1,0 +1,8 @@
+.DS_Store
+.project
+src/sweet/sweet.controller.js
+src/less/combine.less
+src/gulp/serve.js
+node_modules/
+dist/
+npm-debug.log

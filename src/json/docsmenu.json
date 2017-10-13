@@ -1,0 +1,61 @@
+{
+    "data": [{
+        "id": 90,
+        "group": "开发指南",
+        "children": [{
+            "id": 900,
+            "name": "环境搭建",
+            "level": 1,
+            "parent": 90,
+            "path": "900",
+            "icon": "ion-star",
+            "url": "#/main/index/docs/index",
+            "isMenu": true
+        },{
+            "id": 901,
+            "name": "开发规范",
+            "level": 1,
+            "parent": 90,
+            "path": "901",
+            "icon": "ion-star",
+            "url": "#/main/index/docs/rule",
+            "isMenu": true
+        },{
+            "id": 902,
+            "name": "API",
+            "level": 1,
+            "parent": 90,
+            "path": "902",
+            "icon": "ion-star",
+            "url": "#/main/index/docs/API",
+            "isMenu": true
+        },{
+            "id": 903,
+            "name": "控制器",
+            "level": 1,
+            "parent": 90,
+            "path": "903",
+            "icon": "ion-star",
+            "url": "#/main/index/docs/controller",
+            "isMenu": true
+        },{
+            "id": 904,
+            "name": "视图模版引擎",
+            "level": 1,
+            "parent": 90,
+            "path": "904",
+            "icon": "ion-star",
+            "url": "#/main/index/docs/viewsEngine",
+            "isMenu": true
+        },{
+            "id": 905,
+            "name": "路由系统",
+            "level": 1,
+            "parent": 90,
+            "path": "905",
+            "icon": "ion-star",
+            "url": "#/main/index/docs/director",
+            "isMenu": true
+        }]
+    }]
+}

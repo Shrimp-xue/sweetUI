@@ -1,0 +1,111 @@
+.sw-ui-01 .frame-box .frame-top .nav-menu {
+    .nav-menu-item {
+        &.nav-menu-hoverTop {
+            position: relative;
+            margin: 0;
+            & > a {
+                background: transparent;
+                font-size: 14px;
+            }
+
+            &:hover {
+                border-bottom: 4px solid #296ab4;
+                & > a {
+                    color: #296ab4 !important;
+                }
+                .frame-navs-hoverTop {
+                    visibility: visible;
+                    height: auto;
+                    opacity: 1;
+
+                    & > .frame-hovertop-inner
+                    {
+                        display: block;
+                    }
+                }
+            }
+            .frame-navs-hoverTop, {
+                top: 60px;
+                padding-top:5px;
+                left: 0;
+                opacity: 0;
+                visibility: hidden;
+                position: absolute;
+                min-width: 180px;
+                height: 0;
+                
+                transition:opacity .4s;
+
+                color: #333;
+                border: 0;
+
+                .frame-hovertop-inner {
+                    position: absolute;
+                    top:5px;
+                    left:0;
+                    z-index: 2;
+                    width: auto;
+                    min-width: 180px;
+                    min-height: 42px;
+
+                    &.children-box
+                    {
+                        left: 100%;
+                        top: 0;
+                        padding-left: 5px;
+                        visibility: hidden;
+                        z-index: -9999;
+                        height: 0;
+                        opacity: 0;
+                        transition:opacity .4s;
+                    }
+
+                    ul {
+                        background: #fff;
+                        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+                        li {
+                            position: relative;
+                            .frame-hovertop-item {
+                                height: 42px;
+                                line-height: 42px;
+                                font-size: 14px;
+                                color: #333;
+                                display: block;
+                                &.has-children:before
+                                {
+                                    font-family: "iconfont";
+                                    content:'\e651';
+                                    display: block;
+                                    width: 12px;
+                                    height: 12px;
+                                    line-height: 12px;
+                                    position: absolute;
+                                    top: 50%;
+                                    margin-top: -6px;
+                                    right: 10px;
+                                    
+                                }
+                                &.active {
+                                    color: #296ab4;
+                                }
+                            }
+                            &:hover {
+                                & > .frame-hovertop-item {
+                                    background: #e9f0f7;
+                                    color: #296ab4;
+                                    & + .children-box {
+                                        visibility: visible;
+                                        z-index:1;
+                                        height:auto;
+                                        opacity:1;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

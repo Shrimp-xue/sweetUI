@@ -1,0 +1,23 @@
+<div class="sw-drop {[className]}" data-dropid="{[dropId]}" id="sw-drop-item-{[dropId]}" {[if dataId]} data-id="{[dataId]} {[/if]}">
+    {[if title]}
+    <div class="sw-drop-head">
+        {[title]}
+    </div>
+    {[/if]}
+    <div class="sw-drop-body" {[if contentArea.length> 0]} style="width:{[contentArea[0]]}; height:{[contentArea[1]]};"{[/if]} > {[if icon]}
+        <div class="sw-drop-icon">
+            <i class="iconfont {[icon]}"></i>
+        </div>
+        {[/if]}
+        <div class="sw-drop-content">
+            {[@content]}
+        </div>
+    </div>
+    {[if btns.length>0]}
+    <div class="sw-drop-foot">
+        {[each btns]}
+        <button class="btn btn-xs {[ btnClass[$index] ]}">{[$value]}</button>
+        {[/each ]}
+    </div>
+    {[/if]}
+</div>

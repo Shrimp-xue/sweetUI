@@ -1,0 +1,147 @@
+<style>
+    .sw-ui-01 .frame-box .frame-left
+    {
+        z-index: 1031;
+    }
+    .sw-ui-01 .frame-box .frame-left .frame-left-inner
+    {
+        z-index: 1;
+    }
+    .sw-ui-01 .frame-box .frame-left .nav-logo
+    {
+        padding: 10px 46px;
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
+        background: #343d50;
+    }
+    .sw-ui-01 .frame-box .frame-left .nav-logo img
+    {
+        width: 100%;
+    }
+    .sw-ui-01 .frame-box .frame-left .nav-logo img:last-child
+    {
+        display: none;
+    }
+    .sw-ui-01 .frame-box .frame-left .frame-left-inner
+    {
+        padding-top: 10px;
+    }
+    .sw-ui-01 .frame-box .frame-top
+    {
+        padding-left: 200px;
+        background-color:#fff;
+    }
+    .sw-ui-01 .frame-box .frame-top a
+    {
+        color: rgba(0,0,0,0.70);
+    }
+    .sw-ui-01 .frame-box .frame-top .nav-switch
+    {
+        color: rgba(0,0,0,0.70);
+    }
+    .sw-ui-01 .frame-box .frame-top .nav-switch:hover
+    {
+        background: #f6f7f9;
+    }
+    .sw-ui-01 .sw-close-menu .frame-top
+    {
+        padding-left: 48px;
+    }
+    .sw-ui-01 .sw-close-menu .frame-left .nav-logo
+    {
+        padding: 0;
+    }
+    .sw-ui-01 .sw-close-menu .frame-left .nav-logo
+    {
+        padding: 15px 5px;
+    }
+    .sw-ui-01 .sw-close-menu .frame-left .nav-logo img:last-child
+    {
+        display: block;
+    }
+    .sw-ui-01 .sw-close-menu .frame-left .nav-logo img:first-child
+    {
+        display: none;
+    }
+    .sw-ui-01 .frame-box .frame-top .nav-dropdown
+    {
+        margin-left: 0;    
+    }
+    .sw-ui-01 .frame-box .frame-top .nav-menu .nav-menu-item.active a
+    {
+        background: transparent;
+    }
+    .sw-ui-01 .frame-box .frame-top .nav-menu .nav-menu-item.active
+    {
+        border-bottom: 4px solid #296ab4;
+    }
+</style>
+<div class="frame-top" id="frameTop">
+    <div class="nav-switch waves-effect">
+        <i class="ion-navicon"></i>
+    </div>
+    <div class="nav-dropdown dropdown">
+    <a class="btn btn-default btn-link" class="dropdown-toggle" role="button" id="tanentChose" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        {[currentVersion]}
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="tanentChose" id="tanentChoseUl">
+        {[each versions value]}
+        <li><a data-id="{[value.id]}">{[value.name]}</a></li>
+        {[/each]}
+      </ul>
+      </div>
+    <div class="nav-menu" id="navMenu"></div>
+    <div class="nav-tools">
+        <ul>
+            <li class="nav-tools-item">
+                <a href="javascript:;" title="" class="waves-effect">
+                    <i class="ion-chatbox-working"></i>
+                </a>
+            </li>
+            <li class="nav-tools-item">
+                <a href="javascript:;" title="" id="fullscreenBtn" class="waves-effect">
+                    <i class="ion-arrow-expand"></i>
+                </a>
+            </li>
+            <li class="nav-tools-item">
+                <a href="javascript:;" title="" class="waves-effect">
+                    <i class="ion-gear-a"></i>
+                </a>
+            </li>
+            <!-- <li class="nav-tools-item nav-tools-dropdown">
+                  <a class="dropdown-toggle waves-effect waves-light" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <img id="userHeadImg" src='' class="img-circle s-img-xm" alt="">
+                    <span class="m-l-5"></span>
+                    <i class="drop-icon ion-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#/main/userInfo">个人信息</a></li>
+                    <li><a href="#/main/resetPwd">重置密码</a></li>
+                    <li><a id="logout">退出登录</a></li>
+                  </ul>
+            </li> -->
+        </ul>
+    </div>
+</div>
+<div class="frame-left" id="frameLeft">
+    <div class="nav-logo">
+        <a href="#/main/index">
+            <img src='assets/images/sweet-logo@2x.png' alt="">
+            <img src='assets/images/logo@2x.png' alt="">
+            <!-- <i class="iconfont icon-SAAS"></i> -->
+        </a>
+        <!-- <h3 class="nav-sub-title">Sweet UI</h3> -->
+    </div>
+    <div class="frame-left-inner">
+        <div class="frame-menu" id="frameMenu"></div>
+    </div>
+</div>
+<div class="frame-main" id="frameMain">
+    <div class="sw-page p-0" id="views">
+    </div>
+    <div class="loaderViews">
+        <div class="loader-1"></div>
+    </div>
+</div>

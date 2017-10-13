@@ -1,0 +1,43 @@
+{
+	"data": [{
+		"id": 90,
+    "group": "图标管理",
+    "children":[{
+    	"id": 900,
+      "name": "ionIcons",
+      "level": 1,
+      "parent": 90,
+      "path": "90-900",
+      "icon": "ion-star",
+      "url": "#/main/icons/ionicons",
+      "isMenu": true
+    },{
+    	"id": 901,
+      "name": "fontAwesome",
+      "level": 1,
+      "parent": 90,
+      "path": "90-901",
+      "icon": "ion-star",
+      "url": "#/main/icons/fontawesome",
+      "isMenu": true
+    },{
+    	"id": 902,
+      "name": "glyphIcons",
+      "level": 1,
+      "parent": 90,
+      "path": "90-902",
+      "icon": "ion-star",
+      "url": "#/main/icons/glyphicons",
+      "isMenu": true
+    },{
+    	"id": 903,
+      "name": "iconFonts",
+      "level": 1,
+      "parent": 90,
+      "path": "90-903",
+      "icon": "ion-star",
+      "url": "#/main/icons/iconfonts",
+      "isMenu": true
+    }]
+	}]
+}

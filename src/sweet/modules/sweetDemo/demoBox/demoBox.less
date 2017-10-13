@@ -1,0 +1,121 @@
+// test插件试炼
+.sweetBoxBtn {
+    border: solid 1px #dedede;
+    border-radius: 3px;
+    &:hover
+    {
+        box-shadow:0 0 8px 0 #dedede,0px 2px 4px 0 #ddd;
+
+        .code-box .code-box-button .collapaseBtn
+        {
+            left: 0;
+            .text
+            {
+                opacity: 1;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    .topContainer {
+        padding: 20px;
+        border-bottom: solid 1px #dedede;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background: #fff;
+    }
+    .code-box {
+        .code-box-contain {
+            padding: 20px;
+            border-bottom: solid 1px #dedede;
+            background: #f9fafc;
+            
+            .arrows
+            {
+
+            }
+
+            pre[class*="language-"],code[class*="language-"]
+            {
+                border: 0;
+            }
+        }
+        .code-box-button {
+            color: #ccc;
+            background: #fff;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            cursor: pointer;
+            &:hover {
+                background: #f9fafc;
+                color: blue;
+                .text{
+                    color: blue;
+                }
+
+                .collapaseBtn
+                {
+                    .text
+                    {
+                        color: @brand-primary;
+                    }
+                    .arrows
+                    {
+                        color: @brand-primary;
+                    }
+                }
+            }
+            &.open
+            {
+                .arrows
+                {
+                    transform:rotate(180deg);
+                }
+                .collapaseBtn
+                {
+                    .text
+                    {
+                        &.hide-text
+                        {
+                            display: inline-block;
+                        }
+                        &.show-text
+                        {
+                            display:none;
+                        }
+                    }
+                }
+            }
+            .collapaseBtn {
+                position: relative;
+                left:27px;
+                display: inline-block;
+                transition:all .2s;
+
+                .arrows{
+                    position: relative;
+                    color: @brand-primary;
+                    margin-right: 6px;
+                    color: #d3dce6;
+                    transition:all .4s;
+                }
+                .text{
+                    color: #d3dce6;
+                    position: relative; 
+                    opacity: 0;
+                    transition:opacity .4s;
+                    display: none;
+
+                    &.show-text
+                    {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}

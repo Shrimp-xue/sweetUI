@@ -1,0 +1,78 @@
+<style>
+    .sw-ui-01 .frame-box .frame-main
+    {
+        padding-left: 0;
+    }
+    .sw-ui-01 .frame-box .frame-top
+    {
+        background-color:#fff;
+    }
+    .sw-ui-01 .frame-box .frame-top a
+    {
+        color: rgba(0,0,0,0.70);
+    }
+    .sw-ui-01 .frame-box .frame-top .nav-switch
+    {
+        color: rgba(0,0,0,0.70);
+    }
+    .sw-ui-01 .frame-box .frame-top .nav-switch:hover
+    {
+        background: #f6f7f9;
+    }
+    .frame-pageMenu .frame-inner-pageMenu
+    {
+        left: 0;
+    }
+</style>
+<div class="frame-top" id="frameTop">
+    <div class="nav-dropdown dropdown">
+    <a class="btn btn-default btn-link" class="dropdown-toggle" role="button" id="tanentChose" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        {[currentVersion]}
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="tanentChose" id="tanentChoseUl">
+        {[each versions value]}
+        <li><a data-id="{[value.id]}">{[value.name]}</a></li>
+        {[/each]}
+      </ul>
+      </div>
+    <div class="nav-menu" id="frameMenu"></div>
+    <div class="nav-tools">
+        <ul>
+            <li class="nav-tools-item">
+                <a href="javascript:;" title="" class="waves-effect waves-light">
+                    <i class="ion-chatbox-working"></i>
+                </a>
+            </li>
+            <li class="nav-tools-item">
+                <a href="javascript:;" title="" id="fullscreenBtn" class="waves-effect waves-light">
+                    <i class="ion-arrow-expand"></i>
+                </a>
+            </li>
+            <li class="nav-tools-item">
+                <a href="javascript:;" title="" class="waves-effect waves-light">
+                    <i class="ion-gear-a"></i>
+                </a>
+            </li>
+            <!-- <li class="nav-tools-item nav-tools-dropdown">
+                  <a class="dropdown-toggle waves-effect waves-light" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <img id="userHeadImg" src='' class="img-circle s-img-xm" alt="">
+                    <span class="m-l-5"></span>
+                    <i class="drop-icon ion-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#/main/userInfo">个人信息</a></li>
+                    <li><a href="#/main/resetPwd">重置密码</a></li>
+                    <li><a id="logout">退出登录</a></li>
+                  </ul>
+            </li> -->
+        </ul>
+    </div>
+</div>
+<div class="frame-main" id="frameMain">
+    <div class="sw-page p-0" id="views">
+    </div>
+    <div class="loaderViews">
+        <div class="loader-1"></div>
+    </div>
+</div>

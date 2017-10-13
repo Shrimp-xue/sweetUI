@@ -1,0 +1,341 @@
+@sTreePadding : 6px 30px;
+@sTreeNodeHeight:30px;
+@sTreeTop:13px;
+@sTreeOffsetLeft: 30px;
+@sTreeCounter: 5;
+@sTreeSwitchLeft:10px;
+@sTreeSelectNodeBackgrounColor:@brand-primary-dark;
+@sTreeHoverBackgroundColor:#EBF0F7;
+@switchColor:#fff;
+@switchBackgroundColor:#4f4f4f;
+@sTreeChkWidth:14px;
+@sTreeChkHeight:14px;
+
+.sTreeloop(@sTreeCounter,@switchoffset,@textoffset,@chkoffset) when (@sTreeCounter >= 0) {
+    .sTreeloop((@sTreeCounter - 1),@switchoffset,@textoffset,@chkoffset); // 递归调用自身
+    li[treenode] a[treenode_a].level@{sTreeCounter}{
+        padding-left: (@sTreeOffsetLeft + @chkoffset) + (@sTreeCounter * @textoffset) !important;
+
+        &[class*=tmpTargetNode]:after
+        {
+            left:(@sTreeCounter * @textoffset) - 1px;
+        }
+    }
+    li[treenode] span.button.switch.level@{sTreeCounter}
+    {
+        left:@sTreeSwitchLeft + (@sTreeCounter * @switchoffset) !important;
+    }
+    li[treenode].level@{sTreeCounter} span.button.chk
+    {
+        left:(@sTreeSwitchLeft + @chkoffset ) + (@sTreeCounter * @switchoffset) !important;
+    }
+}
+
+
+.ztree {
+    padding: 0;
+    width:100%;
+    .sw_ed_hover
+    {
+        display: none;
+    }
+    & * {
+        font-size:@font-size-base;
+        font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif
+    }
+    &.noSelect li.selectNode > a {
+       background: white;
+        color:#333;
+        opacity: 1;
+    }
+    li[treenode] {
+
+        position: relative;
+        background-color:transparent;
+        &.selectNode 
+        {
+            & > span.button.switch
+            {
+                color:@switchColor;
+                background: transparent;
+            }
+            
+            & > span.button.chk
+            {
+                &.checkbox_true_full,&.checkbox_true_full_focus,&.checkbox_true_part,&.checkbox_true_part_focus
+                {
+                      &:after
+                        {
+                            background-color: white;
+                            color:@brand-primary-dark;
+                        }
+                }
+            }
+        }
+        ul {
+            padding: 0;
+            // a {
+            //     &.curSelectedNode.nochildNode {
+            //         background: inherit;
+            //     }
+            //     &.nochildNode.curSelectedNode:after {
+            //         content: '';
+            //         display: block;
+            //         position: absolute;
+            //         height: 100%;
+            //         width: 3px;
+            //         left: 0;
+            //         top: 0;
+            //         background: #40A2DB;
+            //         z-index: 999;
+            //     }
+            // }
+        }
+        span {
+            line-height: inherit;
+            &.button {
+                position: absolute;
+                left: 0px;
+                top: 0;
+                z-index: 10;
+                &.chk
+                {
+                    width:@sTreeChkWidth;
+                    height: @sTreeChkHeight;
+                    text-align: center;
+                    line-height: @sTreeChkHeight;
+                    background: white;
+                    border-radius: 2px;
+                    border: 1px solid @swBorderColor;
+
+                    top:(@sTreeNodeHeight / 2)-(@sTreeChkHeight / 2);
+                    &[treenode_check]
+                    {
+                        cursor: pointer;
+                        &:after
+                        {
+                            border-radius: 2px;
+                        }
+                    }
+                    &.checkbox_true_full,&.checkbox_true_full_focus,&.checkbox_true_part,&.checkbox_true_part_focus
+                    {
+                        &:after
+                        {
+                            font-size: 12px;
+                            position: relative;
+                            left: -1px;
+                            top: -2px;
+                            width: @sTreeChkWidth;
+                            height: @sTreeChkHeight;
+                            display: inline-block;
+                            background-color: @brand-primary-dark;
+                            color:white;
+                            content: "\e645";
+                            font-family: iconfont;
+                            
+                        }
+                    }
+                    &.checkbox_true_part,&.checkbox_true_part_focus
+                    {
+                        // &:after
+                        // {
+                        //     font-size: 21px;
+                        //     position: relative;
+                        //     left: -1px;
+                        //     width: 16px;
+                        //     height: 16px;
+                        //     color: @brand-primary-dark;
+                        //     content: "\f371";
+                        //     font-family: Ionicons;
+                        // }
+                    }
+                }
+                &.noline_docu
+                {
+                    background: transparent !important;
+                }
+            }
+            &.button.switch {
+                font-size: 12px;
+                width: @sTreeTop;
+                height: @sTreeTop;
+                text-align: center;
+                line-height: @sTreeTop;
+                background: transparent;
+                font-family: "iconfont";
+                color: @switchBackgroundColor;
+                top:(@sTreeNodeHeight / 2)-(@sTreeTop / 2);
+
+                &.noline_open:after {
+                    content: "\e658";
+                }
+                &.noline_close:after {
+                    content: "\e65a";
+                }
+                &.noline_docu:after {
+                    content: "";
+                }
+            }
+        }
+        a[treenode_a] {
+            opacity: 1;
+            z-index: 1;
+            background-color: transparent;
+            vertical-align: middle;
+            height: @sTreeNodeHeight !important;
+            line-height: @sTreeNodeHeight - 6 * 2;
+            display: block;
+            padding: @sTreePadding !important;
+            padding-right: 28px !important;
+            font-size: 15px;
+            border: 0 !important;
+            text-decoration: none;
+            box-sizing: border-box;
+            position: relative;
+            cursor: pointer;
+            &:hover {
+                text-decoration: none;
+                background: @sTreeHoverBackgroundColor;
+            }
+            &.open-drop
+            {
+                z-index: 2;
+            }
+            &[class*=tmpTargetNode]
+            {
+                &:after
+                {
+                    content: '\e640';
+                    display: none;
+                    position: absolute;
+                    left: -1px;
+                    font-size: 14px;
+                    width: 12px;
+                    height: 12px;
+                    /* text-align: left; */
+                    line-height: 14px;
+                    /* background: red; */
+                    font-family: "iconfont";
+                }
+            }
+            &.tmpTargetNode_inner
+            {
+                color:@sTreeSelectNodeBackgrounColor;
+                [treenode_switch]
+                {
+                    color:@sTreeSelectNodeBackgrounColor;
+                }
+            }
+            &.tmpTargetNode_next
+            {
+                &:after
+                {
+                    display: block;
+                    bottom: 0;
+                }
+            }
+            &.tmpTargetNode_prev
+            {
+                &:after
+                {
+                    display: block;
+                    top: 0;
+                }
+            }
+        }
+        &.selectNode > a
+        {
+            background: @sTreeSelectNodeBackgrounColor !important;
+            color: white;
+            border-bottom-color: transparent !important;
+            text-decoration: none;
+        }
+        &:last-child a[treenode_a] {
+            border-bottom: 0 !important;
+        }
+    }
+
+    .sTreeloop(@sTreeCounter, 22,22,0);
+    &.check {
+        .sTreeloop(@sTreeCounter, 22,24,20);
+    }
+    &.hover
+    {
+        [treenode_a]
+        {
+            position: relative;
+            &.hovering
+            {
+                .sw_ed_hover
+                {
+                    display: block;
+                }
+            }
+        }
+
+        .sw_ed_hover
+        {
+            display: none;
+            position: absolute;
+            top: 0px;
+            right:0px;
+            padding-right: 9px;
+            z-index: 999;
+            .dropdown-toggle
+            {
+                display: block;
+                height: @sTreeNodeHeight;
+                line-height: @sTreeNodeHeight;
+                padding: 0;
+            }
+            i.sw_ed_hover_icon
+            {
+                display: inline-block;
+                height: 12px;
+                line-height: 12px;
+                font-size: 12px;
+                text-align: center;
+                width: 12px;
+                background: white;
+                border-radius: 1px;
+                border:1px solid #e5e5e5;
+                color: #8b919a;
+
+            }
+            & > ul
+            {
+                background: white;
+                min-width: 130px;
+                box-shadow:0px 2px 4px 0px rgba(0,0,0,0.25);
+                & > li 
+                {
+                    background: white;
+                    & > a
+                    {
+                        display: block;
+                        padding: 6px 20px;
+                        clear: both;
+                        font-weight: normal;
+                        line-height: 1.42857143;
+                        color: #333333;
+                        white-space: nowrap;
+                        height: auto;
+                        display: block;
+                        text-decoration: inherit;
+
+                        &:hover
+                        {
+                            background: inherit;
+                            color: @brand-primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+span.tmpzTreeMove_arrow
+{
+    display: none !important;
+}

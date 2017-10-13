@@ -1,0 +1,150 @@
+.checkbox {
+    label:before {
+        width: 14px;
+        height: 14px;
+        border-radius: 2px;
+        top: 2px;
+
+    }
+    label:after {
+        padding-left: 1px;
+        width: 14px;
+        height: 14px;
+        top:0;
+    }
+    &:hover {
+        .checkboxBorder(@defaultHoverColor)
+    }
+     &.checkbox-success:hover {
+        .checkboxBorder(@success)
+    }
+    &.checkbox-custom:hover {
+        .checkboxBorder(@custom)
+    }
+    &.checkbox-info:hover {
+        .checkboxBorder(@fa-info)
+    }
+    &.checkbox-danger:hover {
+        .checkboxBorder(@danger)
+    }
+    &.checkbox-primary:hover {
+        .checkboxBorder(@primary)
+    }
+    &.checkbox-warning:hover {
+        .checkboxBorder(@warning)
+    }
+    input[type="checkbox"]:checked + label::after {
+        content: "\e645";
+        font-family: 'iconfont';
+    }
+    &.checkbox-half
+    {
+        input[type="checkbox"]:checked + label::after
+        {
+            content: "\e620";
+        }
+    }
+}
+
+.radio {
+    label:before {
+        width: 14px;
+        height: 14px;
+    }
+    label:after {
+        padding-left: 1px;
+        top: 4px;
+        left: 4px;
+        width: 6px;
+        height: 6px;
+    }
+    &:hover {
+       .radioBorder(#333)
+    }
+    &.radio-custom:hover {
+       .radioBorder(@custom)
+    }
+    &.radio-success:hover {
+        .radioBorder(@success)
+    }
+    &.radio-info:hover {
+        .radioBorder(@fa-info)
+    }
+    &.radio-danger:hover {
+        .radioBorder(@danger)
+    }
+    &.radio-primary:hover {
+        .radioBorder(@primary)
+    }
+    &.radio-warning:hover {
+        .radioBorder(@warning)
+    }
+}
+
+.form-group {
+    .form-control {
+        &:not([readonly]):not([disabled]):hover {
+            border: solid 1px @defaultHoverColor;
+        }
+        &:not([readonly]):not([disabled]):focus {
+            border: solid 1px @defaultHoverColor;
+            box-shadow: 0px 0px 2px 2px @defaultHoverColor 0.25;
+            -webkit-box-shadow: 0px 0px 2px 2px @defaultHoverColor 0.25;
+        }
+    }
+    &.has-success {
+        .form-control {
+            &:not([readonly]):not([disabled]):hover {
+                border: solid 1px #62b845;
+            }
+            &:not([readonly]):not([disabled]):focus {
+                border: solid 1px #62b845;
+                box-shadow: 0px 0px 2px 2px #62b845 0.25;
+                -webkit-box-shadow: 0px 0px 2px 2px #62b845 0.25;
+            }
+        }
+    }
+    &.has-warning {
+        .form-control {
+            &:not([readonly]):not([disabled]):hover {
+                border: solid 1px #66512c;
+            }
+            &:not([readonly]):not([disabled]):focus {
+                border: solid 1px #66512c;
+                box-shadow: 0px 0px 2px 2px #66512c 0.25;
+                -webkit-box-shadow: 0px 0px 2px 2px #66512c 0.25;
+            }
+        }
+    }
+    &.has-error {
+        .form-control {
+            &:not([readonly]):not([disabled]):hover {
+                border: solid 1px #b9452d;
+            }
+            &:not([readonly]):not([disabled]):focus {
+                border: solid 1px #b9452d;
+                box-shadow: 0px 0px 2px 2px #b9452d 0.25;
+                -webkit-box-shadow: 0px 0px 2px 2px #b9452d 0.25;
+            }
+        }
+    }
+    .input-group {
+        .form-control:last-child,
+        .input-group-addon:last-child,
+        .input-group-btn:first-child>.btn-group:not(: first-child)>.btn, .input-group-btn:first-child>.btn:not(: first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+        }
+        .form-control:first-child,
+        .input-group-addon:first-child,
+        .input-group-btn:first-child > .btn,
+        .input-group-btn:first-child > .btn-group > .btn,
+        .input-group-btn:first-child > .dropdown-toggle,
+        .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+        .input-group-btn:last-child > .btn-group:not(:last-child) > .btn,
+        .input-group-btn:last-child>.dropdown-toggle {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+}

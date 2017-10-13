@@ -1,0 +1,2362 @@
+{
+    "icons": [
+        {
+            "font_class": "fa fa-500px"
+        },
+        {
+            "font_class": "fa fa-address-book"
+        },
+        {
+            "font_class": "fa fa-address-book-o"
+        },
+        {
+            "font_class": "fa fa-address-card"
+        },
+        {
+            "font_class": "fa fa-address-card-o"
+        },
+        {
+            "font_class": "fa fa-adjust"
+        },
+        {
+            "font_class": "fa fa-adn"
+        },
+        {
+            "font_class": "fa fa-align-center"
+        },
+        {
+            "font_class": "fa fa-align-justify"
+        },
+        {
+            "font_class": "fa fa-align-left"
+        },
+        {
+            "font_class": "fa fa-align-right"
+        },
+        {
+            "font_class": "fa fa-amazon"
+        },
+        {
+            "font_class": "fa fa-ambulance"
+        },
+        {
+            "font_class": "fa fa-american-sign-language-interpreting"
+        },
+        {
+            "font_class": "fa fa-anchor"
+        },
+        {
+            "font_class": "fa fa-android"
+        },
+        {
+            "font_class": "fa fa-angellist"
+        },
+        {
+            "font_class": "fa fa-angle-double-down"
+        },
+        {
+            "font_class": "fa fa-angle-double-left"
+        },
+        {
+            "font_class": "fa fa-angle-double-right"
+        },
+        {
+            "font_class": "fa fa-angle-double-up"
+        },
+        {
+            "font_class": "fa fa-angle-down"
+        },
+        {
+            "font_class": "fa fa-angle-left"
+        },
+        {
+            "font_class": "fa fa-angle-right"
+        },
+        {
+            "font_class": "fa fa-angle-up"
+        },
+        {
+            "font_class": "fa fa-apple"
+        },
+        {
+            "font_class": "fa fa-archive"
+        },
+        {
+            "font_class": "fa fa-area-chart"
+        },
+        {
+            "font_class": "fa fa-arrow-circle-down"
+        },
+        {
+            "font_class": "fa fa-arrow-circle-left"
+        },
+        {
+            "font_class": "fa fa-arrow-circle-o-down"
+        },
+        {
+            "font_class": "fa fa-arrow-circle-o-left"
+        },
+        {
+            "font_class": "fa fa-arrow-circle-o-right"
+        },
+        {
+            "font_class": "fa fa-arrow-circle-o-up"
+        },
+        {
+            "font_class": "fa fa-arrow-circle-right"
+        },
+        {
+            "font_class": "fa fa-arrow-circle-up"
+        },
+        {
+            "font_class": "fa fa-arrow-down"
+        },
+        {
+            "font_class": "fa fa-arrow-left"
+        },
+        {
+            "font_class": "fa fa-arrow-right"
+        },
+        {
+            "font_class": "fa fa-arrow-up"
+        },
+        {
+            "font_class": "fa fa-arrows"
+        },
+        {
+            "font_class": "fa fa-arrows-alt"
+        },
+        {
+            "font_class": "fa fa-arrows-h"
+        },
+        {
+            "font_class": "fa fa-arrows-v"
+        },
+        {
+            "font_class": "fa fa-asl-interpreting"
+        },
+        {
+            "font_class": "fa fa-assistive-listening-systems"
+        },
+        {
+            "font_class": "fa fa-asterisk"
+        },
+        {
+            "font_class": "fa fa-at"
+        },
+        {
+            "font_class": "fa fa-audio-description"
+        },
+        {
+            "font_class": "fa fa-automobile"
+        },
+        {
+            "font_class": "fa fa-backward"
+        },
+        {
+            "font_class": "fa fa-balance-scale"
+        },
+        {
+            "font_class": "fa fa-ban"
+        },
+        {
+            "font_class": "fa fa-bandcamp"
+        },
+        {
+            "font_class": "fa fa-bank"
+        },
+        {
+            "font_class": "fa fa-bar-chart"
+        },
+        {
+            "font_class": "fa fa-bar-chart-o"
+        },
+        {
+            "font_class": "fa fa-barcode"
+        },
+        {
+            "font_class": "fa fa-bars"
+        },
+        {
+            "font_class": "fa fa-bath"
+        },
+        {
+            "font_class": "fa fa-bathtub"
+        },
+        {
+            "font_class": "fa fa-battery"
+        },
+        {
+            "font_class": "fa fa-battery-0"
+        },
+        {
+            "font_class": "fa fa-battery-1"
+        },
+        {
+            "font_class": "fa fa-battery-2"
+        },
+        {
+            "font_class": "fa fa-battery-3"
+        },
+        {
+            "font_class": "fa fa-battery-4"
+        },
+        {
+            "font_class": "fa fa-battery-empty"
+        },
+        {
+            "font_class": "fa fa-battery-full"
+        },
+        {
+            "font_class": "fa fa-battery-half"
+        },
+        {
+            "font_class": "fa fa-battery-quarter"
+        },
+        {
+            "font_class": "fa fa-battery-three-quarters"
+        },
+        {
+            "font_class": "fa fa-bed"
+        },
+        {
+            "font_class": "fa fa-beer"
+        },
+        {
+            "font_class": "fa fa-behance"
+        },
+        {
+            "font_class": "fa fa-behance-square"
+        },
+        {
+            "font_class": "fa fa-bell"
+        },
+        {
+            "font_class": "fa fa-bell-o"
+        },
+        {
+            "font_class": "fa fa-bell-slash"
+        },
+        {
+            "font_class": "fa fa-bell-slash-o"
+        },
+        {
+            "font_class": "fa fa-bicycle"
+        },
+        {
+            "font_class": "fa fa-binoculars"
+        },
+        {
+            "font_class": "fa fa-birthday-cake"
+        },
+        {
+            "font_class": "fa fa-bitbucket"
+        },
+        {
+            "font_class": "fa fa-bitbucket-square"
+        },
+        {
+            "font_class": "fa fa-bitcoin"
+        },
+        {
+            "font_class": "fa fa-black-tie"
+        },
+        {
+            "font_class": "fa fa-blind"
+        },
+        {
+            "font_class": "fa fa-bluetooth"
+        },
+        {
+            "font_class": "fa fa-bluetooth-b"
+        },
+        {
+            "font_class": "fa fa-bold"
+        },
+        {
+            "font_class": "fa fa-bolt"
+        },
+        {
+            "font_class": "fa fa-bomb"
+        },
+        {
+            "font_class": "fa fa-book"
+        },
+        {
+            "font_class": "fa fa-bookmark"
+        },
+        {
+            "font_class": "fa fa-bookmark-o"
+        },
+        {
+            "font_class": "fa fa-braille"
+        },
+        {
+            "font_class": "fa fa-briefcase"
+        },
+        {
+            "font_class": "fa fa-btc"
+        },
+        {
+            "font_class": "fa fa-bug"
+        },
+        {
+            "font_class": "fa fa-building"
+        },
+        {
+            "font_class": "fa fa-building-o"
+        },
+        {
+            "font_class": "fa fa-bullhorn"
+        },
+        {
+            "font_class": "fa fa-bullseye"
+        },
+        {
+            "font_class": "fa fa-bus"
+        },
+        {
+            "font_class": "fa fa-buysellads"
+        },
+        {
+            "font_class": "fa fa-cab"
+        },
+        {
+            "font_class": "fa fa-calculator"
+        },
+        {
+            "font_class": "fa fa-calendar"
+        },
+        {
+            "font_class": "fa fa-calendar-check-o"
+        },
+        {
+            "font_class": "fa fa-calendar-minus-o"
+        },
+        {
+            "font_class": "fa fa-calendar-o"
+        },
+        {
+            "font_class": "fa fa-calendar-plus-o"
+        },
+        {
+            "font_class": "fa fa-calendar-times-o"
+        },
+        {
+            "font_class": "fa fa-camera"
+        },
+        {
+            "font_class": "fa fa-camera-retro"
+        },
+        {
+            "font_class": "fa fa-car"
+        },
+        {
+            "font_class": "fa fa-caret-down"
+        },
+        {
+            "font_class": "fa fa-caret-left"
+        },
+        {
+            "font_class": "fa fa-caret-right"
+        },
+        {
+            "font_class": "fa fa-caret-square-o-down"
+        },
+        {
+            "font_class": "fa fa-caret-square-o-left"
+        },
+        {
+            "font_class": "fa fa-caret-square-o-right"
+        },
+        {
+            "font_class": "fa fa-caret-square-o-up"
+        },
+        {
+            "font_class": "fa fa-caret-up"
+        },
+        {
+            "font_class": "fa fa-cart-arrow-down"
+        },
+        {
+            "font_class": "fa fa-cart-plus"
+        },
+        {
+            "font_class": "fa fa-cc"
+        },
+        {
+            "font_class": "fa fa-cc-amex"
+        },
+        {
+            "font_class": "fa fa-cc-diners-club"
+        },
+        {
+            "font_class": "fa fa-cc-discover"
+        },
+        {
+            "font_class": "fa fa-cc-jcb"
+        },
+        {
+            "font_class": "fa fa-cc-mastercard"
+        },
+        {
+            "font_class": "fa fa-cc-paypal"
+        },
+        {
+            "font_class": "fa fa-cc-stripe"
+        },
+        {
+            "font_class": "fa fa-cc-visa"
+        },
+        {
+            "font_class": "fa fa-certificate"
+        },
+        {
+            "font_class": "fa fa-chain"
+        },
+        {
+            "font_class": "fa fa-chain-broken"
+        },
+        {
+            "font_class": "fa fa-check"
+        },
+        {
+            "font_class": "fa fa-check-circle"
+        },
+        {
+            "font_class": "fa fa-check-circle-o"
+        },
+        {
+            "font_class": "fa fa-check-square"
+        },
+        {
+            "font_class": "fa fa-check-square-o"
+        },
+        {
+            "font_class": "fa fa-chevron-circle-down"
+        },
+        {
+            "font_class": "fa fa-chevron-circle-left"
+        },
+        {
+            "font_class": "fa fa-chevron-circle-right"
+        },
+        {
+            "font_class": "fa fa-chevron-circle-up"
+        },
+        {
+            "font_class": "fa fa-chevron-down"
+        },
+        {
+            "font_class": "fa fa-chevron-left"
+        },
+        {
+            "font_class": "fa fa-chevron-right"
+        },
+        {
+            "font_class": "fa fa-chevron-up"
+        },
+        {
+            "font_class": "fa fa-child"
+        },
+        {
+            "font_class": "fa fa-chrome"
+        },
+        {
+            "font_class": "fa fa-circle"
+        },
+        {
+            "font_class": "fa fa-circle-o"
+        },
+        {
+            "font_class": "fa fa-circle-o-notch"
+        },
+        {
+            "font_class": "fa fa-circle-thin"
+        },
+        {
+            "font_class": "fa fa-clipboard"
+        },
+        {
+            "font_class": "fa fa-clock-o"
+        },
+        {
+            "font_class": "fa fa-clone"
+        },
+        {
+            "font_class": "fa fa-close"
+        },
+        {
+            "font_class": "fa fa-cloud"
+        },
+        {
+            "font_class": "fa fa-cloud-download"
+        },
+        {
+            "font_class": "fa fa-cloud-upload"
+        },
+        {
+            "font_class": "fa fa-cny"
+        },
+        {
+            "font_class": "fa fa-code"
+        },
+        {
+            "font_class": "fa fa-code-fork"
+        },
+        {
+            "font_class": "fa fa-codepen"
+        },
+        {
+            "font_class": "fa fa-codiepie"
+        },
+        {
+            "font_class": "fa fa-coffee"
+        },
+        {
+            "font_class": "fa fa-cog"
+        },
+        {
+            "font_class": "fa fa-cogs"
+        },
+        {
+            "font_class": "fa fa-columns"
+        },
+        {
+            "font_class": "fa fa-comment"
+        },
+        {
+            "font_class": "fa fa-comment-o"
+        },
+        {
+            "font_class": "fa fa-commenting"
+        },
+        {
+            "font_class": "fa fa-commenting-o"
+        },
+        {
+            "font_class": "fa fa-comments"
+        },
+        {
+            "font_class": "fa fa-comments-o"
+        },
+        {
+            "font_class": "fa fa-compass"
+        },
+        {
+            "font_class": "fa fa-compress"
+        },
+        {
+            "font_class": "fa fa-connectdevelop"
+        },
+        {
+            "font_class": "fa fa-contao"
+        },
+        {
+            "font_class": "fa fa-copy"
+        },
+        {
+            "font_class": "fa fa-copyright"
+        },
+        {
+            "font_class": "fa fa-creative-commons"
+        },
+        {
+            "font_class": "fa fa-credit-card"
+        },
+        {
+            "font_class": "fa fa-credit-card-alt"
+        },
+        {
+            "font_class": "fa fa-crop"
+        },
+        {
+            "font_class": "fa fa-crosshairs"
+        },
+        {
+            "font_class": "fa fa-css3"
+        },
+        {
+            "font_class": "fa fa-cube"
+        },
+        {
+            "font_class": "fa fa-cubes"
+        },
+        {
+            "font_class": "fa fa-cut"
+        },
+        {
+            "font_class": "fa fa-cutlery"
+        },
+        {
+            "font_class": "fa fa-dashboard"
+        },
+        {
+            "font_class": "fa fa-dashcube"
+        },
+        {
+            "font_class": "fa fa-database"
+        },
+        {
+            "font_class": "fa fa-deaf"
+        },
+        {
+            "font_class": "fa fa-deafness"
+        },
+        {
+            "font_class": "fa fa-dedent"
+        },
+        {
+            "font_class": "fa fa-delicious"
+        },
+        {
+            "font_class": "fa fa-desktop"
+        },
+        {
+            "font_class": "fa fa-deviantart"
+        },
+        {
+            "font_class": "fa fa-diamond"
+        },
+        {
+            "font_class": "fa fa-digg"
+        },
+        {
+            "font_class": "fa fa-dollar"
+        },
+        {
+            "font_class": "fa fa-dot-circle-o"
+        },
+        {
+            "font_class": "fa fa-download"
+        },
+        {
+            "font_class": "fa fa-dribbble"
+        },
+        {
+            "font_class": "fa fa-drivers-license"
+        },
+        {
+            "font_class": "fa fa-drivers-license-o"
+        },
+        {
+            "font_class": "fa fa-dropbox"
+        },
+        {
+            "font_class": "fa fa-drupal"
+        },
+        {
+            "font_class": "fa fa-edge"
+        },
+        {
+            "font_class": "fa fa-edit"
+        },
+        {
+            "font_class": "fa fa-eercast"
+        },
+        {
+            "font_class": "fa fa-eject"
+        },
+        {
+            "font_class": "fa fa-ellipsis-h"
+        },
+        {
+            "font_class": "fa fa-ellipsis-v"
+        },
+        {
+            "font_class": "fa fa-empire"
+        },
+        {
+            "font_class": "fa fa-envelope"
+        },
+        {
+            "font_class": "fa fa-envelope-o"
+        },
+        {
+            "font_class": "fa fa-envelope-open"
+        },
+        {
+            "font_class": "fa fa-envelope-open-o"
+        },
+        {
+            "font_class": "fa fa-envelope-square"
+        },
+        {
+            "font_class": "fa fa-envira"
+        },
+        {
+            "font_class": "fa fa-eraser"
+        },
+        {
+            "font_class": "fa fa-etsy"
+        },
+        {
+            "font_class": "fa fa-eur"
+        },
+        {
+            "font_class": "fa fa-euro"
+        },
+        {
+            "font_class": "fa fa-exchange"
+        },
+        {
+            "font_class": "fa fa-exclamation"
+        },
+        {
+            "font_class": "fa fa-exclamation-circle"
+        },
+        {
+            "font_class": "fa fa-exclamation-triangle"
+        },
+        {
+            "font_class": "fa fa-expand"
+        },
+        {
+            "font_class": "fa fa-expeditedssl"
+        },
+        {
+            "font_class": "fa fa-external-link"
+        },
+        {
+            "font_class": "fa fa-external-link-square"
+        },
+        {
+            "font_class": "fa fa-eye"
+        },
+        {
+            "font_class": "fa fa-eye-slash"
+        },
+        {
+            "font_class": "fa fa-eyedropper"
+        },
+        {
+            "font_class": "fa fa-fa"
+        },
+        {
+            "font_class": "fa fa-facebook"
+        },
+        {
+            "font_class": "fa fa-facebook-f"
+        },
+        {
+            "font_class": "fa fa-facebook-official"
+        },
+        {
+            "font_class": "fa fa-facebook-square"
+        },
+        {
+            "font_class": "fa fa-fast-backward"
+        },
+        {
+            "font_class": "fa fa-fast-forward"
+        },
+        {
+            "font_class": "fa fa-fax"
+        },
+        {
+            "font_class": "fa fa-feed"
+        },
+        {
+            "font_class": "fa fa-female"
+        },
+        {
+            "font_class": "fa fa-fighter-jet"
+        },
+        {
+            "font_class": "fa fa-file"
+        },
+        {
+            "font_class": "fa fa-file-archive-o"
+        },
+        {
+            "font_class": "fa fa-file-audio-o"
+        },
+        {
+            "font_class": "fa fa-file-code-o"
+        },
+        {
+            "font_class": "fa fa-file-excel-o"
+        },
+        {
+            "font_class": "fa fa-file-image-o"
+        },
+        {
+            "font_class": "fa fa-file-movie-o"
+        },
+        {
+            "font_class": "fa fa-file-o"
+        },
+        {
+            "font_class": "fa fa-file-pdf-o"
+        },
+        {
+            "font_class": "fa fa-file-photo-o"
+        },
+        {
+            "font_class": "fa fa-file-picture-o"
+        },
+        {
+            "font_class": "fa fa-file-powerpoint-o"
+        },
+        {
+            "font_class": "fa fa-file-sound-o"
+        },
+        {
+            "font_class": "fa fa-file-text"
+        },
+        {
+            "font_class": "fa fa-file-text-o"
+        },
+        {
+            "font_class": "fa fa-file-video-o"
+        },
+        {
+            "font_class": "fa fa-file-word-o"
+        },
+        {
+            "font_class": "fa fa-file-zip-o"
+        },
+        {
+            "font_class": "fa fa-files-o"
+        },
+        {
+            "font_class": "fa fa-film"
+        },
+        {
+            "font_class": "fa fa-filter"
+        },
+        {
+            "font_class": "fa fa-fire"
+        },
+        {
+            "font_class": "fa fa-fire-extinguisher"
+        },
+        {
+            "font_class": "fa fa-firefox"
+        },
+        {
+            "font_class": "fa fa-first-order"
+        },
+        {
+            "font_class": "fa fa-flag"
+        },
+        {
+            "font_class": "fa fa-flag-checkered"
+        },
+        {
+            "font_class": "fa fa-flag-o"
+        },
+        {
+            "font_class": "fa fa-flash"
+        },
+        {
+            "font_class": "fa fa-flask"
+        },
+        {
+            "font_class": "fa fa-flickr"
+        },
+        {
+            "font_class": "fa fa-floppy-o"
+        },
+        {
+            "font_class": "fa fa-folder"
+        },
+        {
+            "font_class": "fa fa-folder-o"
+        },
+        {
+            "font_class": "fa fa-folder-open"
+        },
+        {
+            "font_class": "fa fa-folder-open-o"
+        },
+        {
+            "font_class": "fa fa-font"
+        },
+        {
+            "font_class": "fa fa-font-awesome"
+        },
+        {
+            "font_class": "fa fa-fonticons"
+        },
+        {
+            "font_class": "fa fa-fort-awesome"
+        },
+        {
+            "font_class": "fa fa-forumbee"
+        },
+        {
+            "font_class": "fa fa-forward"
+        },
+        {
+            "font_class": "fa fa-foursquare"
+        },
+        {
+            "font_class": "fa fa-free-code-camp"
+        },
+        {
+            "font_class": "fa fa-frown-o"
+        },
+        {
+            "font_class": "fa fa-futbol-o"
+        },
+        {
+            "font_class": "fa fa-gamepad"
+        },
+        {
+            "font_class": "fa fa-gavel"
+        },
+        {
+            "font_class": "fa fa-gbp"
+        },
+        {
+            "font_class": "fa fa-ge"
+        },
+        {
+            "font_class": "fa fa-gear"
+        },
+        {
+            "font_class": "fa fa-gears"
+        },
+        {
+            "font_class": "fa fa-genderless"
+        },
+        {
+            "font_class": "fa fa-get-pocket"
+        },
+        {
+            "font_class": "fa fa-gg"
+        },
+        {
+            "font_class": "fa fa-gg-circle"
+        },
+        {
+            "font_class": "fa fa-gift"
+        },
+        {
+            "font_class": "fa fa-git"
+        },
+        {
+            "font_class": "fa fa-git-square"
+        },
+        {
+            "font_class": "fa fa-github"
+        },
+        {
+            "font_class": "fa fa-github-alt"
+        },
+        {
+            "font_class": "fa fa-github-square"
+        },
+        {
+            "font_class": "fa fa-gitlab"
+        },
+        {
+            "font_class": "fa fa-gittip"
+        },
+        {
+            "font_class": "fa fa-glass"
+        },
+        {
+            "font_class": "fa fa-glide"
+        },
+        {
+            "font_class": "fa fa-glide-g"
+        },
+        {
+            "font_class": "fa fa-globe"
+        },
+        {
+            "font_class": "fa fa-google"
+        },
+        {
+            "font_class": "fa fa-google-plus"
+        },
+        {
+            "font_class": "fa fa-google-plus-circle"
+        },
+        {
+            "font_class": "fa fa-google-plus-official"
+        },
+        {
+            "font_class": "fa fa-google-plus-square"
+        },
+        {
+            "font_class": "fa fa-google-wallet"
+        },
+        {
+            "font_class": "fa fa-graduation-cap"
+        },
+        {
+            "font_class": "fa fa-gratipay"
+        },
+        {
+            "font_class": "fa fa-grav"
+        },
+        {
+            "font_class": "fa fa-group"
+        },
+        {
+            "font_class": "fa fa-h-square"
+        },
+        {
+            "font_class": "fa fa-hacker-news"
+        },
+        {
+            "font_class": "fa fa-hand-grab-o"
+        },
+        {
+            "font_class": "fa fa-hand-lizard-o"
+        },
+        {
+            "font_class": "fa fa-hand-o-down"
+        },
+        {
+            "font_class": "fa fa-hand-o-left"
+        },
+        {
+            "font_class": "fa fa-hand-o-right"
+        },
+        {
+            "font_class": "fa fa-hand-o-up"
+        },
+        {
+            "font_class": "fa fa-hand-paper-o"
+        },
+        {
+            "font_class": "fa fa-hand-peace-o"
+        },
+        {
+            "font_class": "fa fa-hand-pointer-o"
+        },
+        {
+            "font_class": "fa fa-hand-rock-o"
+        },
+        {
+            "font_class": "fa fa-hand-scissors-o"
+        },
+        {
+            "font_class": "fa fa-hand-spock-o"
+        },
+        {
+            "font_class": "fa fa-hand-stop-o"
+        },
+        {
+            "font_class": "fa fa-handshake-o"
+        },
+        {
+            "font_class": "fa fa-hard-of-hearing"
+        },
+        {
+            "font_class": "fa fa-hashtag"
+        },
+        {
+            "font_class": "fa fa-hdd-o"
+        },
+        {
+            "font_class": "fa fa-header"
+        },
+        {
+            "font_class": "fa fa-headphones"
+        },
+        {
+            "font_class": "fa fa-heart"
+        },
+        {
+            "font_class": "fa fa-heart-o"
+        },
+        {
+            "font_class": "fa fa-heartbeat"
+        },
+        {
+            "font_class": "fa fa-history"
+        },
+        {
+            "font_class": "fa fa-home"
+        },
+        {
+            "font_class": "fa fa-hospital-o"
+        },
+        {
+            "font_class": "fa fa-hotel"
+        },
+        {
+            "font_class": "fa fa-hourglass"
+        },
+        {
+            "font_class": "fa fa-hourglass-1"
+        },
+        {
+            "font_class": "fa fa-hourglass-2"
+        },
+        {
+            "font_class": "fa fa-hourglass-3"
+        },
+        {
+            "font_class": "fa fa-hourglass-end"
+        },
+        {
+            "font_class": "fa fa-hourglass-half"
+        },
+        {
+            "font_class": "fa fa-hourglass-o"
+        },
+        {
+            "font_class": "fa fa-hourglass-start"
+        },
+        {
+            "font_class": "fa fa-houzz"
+        },
+        {
+            "font_class": "fa fa-html5"
+        },
+        {
+            "font_class": "fa fa-i-cursor"
+        },
+        {
+            "font_class": "fa fa-id-badge"
+        },
+        {
+            "font_class": "fa fa-id-card"
+        },
+        {
+            "font_class": "fa fa-id-card-o"
+        },
+        {
+            "font_class": "fa fa-ils"
+        },
+        {
+            "font_class": "fa fa-image"
+        },
+        {
+            "font_class": "fa fa-imdb"
+        },
+        {
+            "font_class": "fa fa-inbox"
+        },
+        {
+            "font_class": "fa fa-indent"
+        },
+        {
+            "font_class": "fa fa-industry"
+        },
+        {
+            "font_class": "fa fa-info"
+        },
+        {
+            "font_class": "fa fa-info-circle"
+        },
+        {
+            "font_class": "fa fa-inr"
+        },
+        {
+            "font_class": "fa fa-instagram"
+        },
+        {
+            "font_class": "fa fa-institution"
+        },
+        {
+            "font_class": "fa fa-internet-explorer"
+        },
+        {
+            "font_class": "fa fa-intersex"
+        },
+        {
+            "font_class": "fa fa-ioxhost"
+        },
+        {
+            "font_class": "fa fa-italic"
+        },
+        {
+            "font_class": "fa fa-joomla"
+        },
+        {
+            "font_class": "fa fa-jpy"
+        },
+        {
+            "font_class": "fa fa-jsfiddle"
+        },
+        {
+            "font_class": "fa fa-key"
+        },
+        {
+            "font_class": "fa fa-keyboard-o"
+        },
+        {
+            "font_class": "fa fa-krw"
+        },
+        {
+            "font_class": "fa fa-language"
+        },
+        {
+            "font_class": "fa fa-laptop"
+        },
+        {
+            "font_class": "fa fa-lastfm"
+        },
+        {
+            "font_class": "fa fa-lastfm-square"
+        },
+        {
+            "font_class": "fa fa-leaf"
+        },
+        {
+            "font_class": "fa fa-leanpub"
+        },
+        {
+            "font_class": "fa fa-legal"
+        },
+        {
+            "font_class": "fa fa-lemon-o"
+        },
+        {
+            "font_class": "fa fa-level-down"
+        },
+        {
+            "font_class": "fa fa-level-up"
+        },
+        {
+            "font_class": "fa fa-life-bouy"
+        },
+        {
+            "font_class": "fa fa-life-buoy"
+        },
+        {
+            "font_class": "fa fa-life-ring"
+        },
+        {
+            "font_class": "fa fa-life-saver"
+        },
+        {
+            "font_class": "fa fa-lightbulb-o"
+        },
+        {
+            "font_class": "fa fa-line-chart"
+        },
+        {
+            "font_class": "fa fa-link"
+        },
+        {
+            "font_class": "fa fa-linkedin"
+        },
+        {
+            "font_class": "fa fa-linkedin-square"
+        },
+        {
+            "font_class": "fa fa-linode"
+        },
+        {
+            "font_class": "fa fa-linux"
+        },
+        {
+            "font_class": "fa fa-list"
+        },
+        {
+            "font_class": "fa fa-list-alt"
+        },
+        {
+            "font_class": "fa fa-list-ol"
+        },
+        {
+            "font_class": "fa fa-list-ul"
+        },
+        {
+            "font_class": "fa fa-location-arrow"
+        },
+        {
+            "font_class": "fa fa-lock"
+        },
+        {
+            "font_class": "fa fa-long-arrow-down"
+        },
+        {
+            "font_class": "fa fa-long-arrow-left"
+        },
+        {
+            "font_class": "fa fa-long-arrow-right"
+        },
+        {
+            "font_class": "fa fa-long-arrow-up"
+        },
+        {
+            "font_class": "fa fa-low-vision"
+        },
+        {
+            "font_class": "fa fa-magic"
+        },
+        {
+            "font_class": "fa fa-magnet"
+        },
+        {
+            "font_class": "fa fa-mail-forward"
+        },
+        {
+            "font_class": "fa fa-mail-reply"
+        },
+        {
+            "font_class": "fa fa-mail-reply-all"
+        },
+        {
+            "font_class": "fa fa-male"
+        },
+        {
+            "font_class": "fa fa-map"
+        },
+        {
+            "font_class": "fa fa-map-marker"
+        },
+        {
+            "font_class": "fa fa-map-o"
+        },
+        {
+            "font_class": "fa fa-map-pin"
+        },
+        {
+            "font_class": "fa fa-map-signs"
+        },
+        {
+            "font_class": "fa fa-mars"
+        },
+        {
+            "font_class": "fa fa-mars-double"
+        },
+        {
+            "font_class": "fa fa-mars-stroke"
+        },
+        {
+            "font_class": "fa fa-mars-stroke-h"
+        },
+        {
+            "font_class": "fa fa-mars-stroke-v"
+        },
+        {
+            "font_class": "fa fa-maxcdn"
+        },
+        {
+            "font_class": "fa fa-meanpath"
+        },
+        {
+            "font_class": "fa fa-medium"
+        },
+        {
+            "font_class": "fa fa-medkit"
+        },
+        {
+            "font_class": "fa fa-meetup"
+        },
+        {
+            "font_class": "fa fa-meh-o"
+        },
+        {
+            "font_class": "fa fa-mercury"
+        },
+        {
+            "font_class": "fa fa-microchip"
+        },
+        {
+            "font_class": "fa fa-microphone"
+        },
+        {
+            "font_class": "fa fa-microphone-slash"
+        },
+        {
+            "font_class": "fa fa-minus"
+        },
+        {
+            "font_class": "fa fa-minus-circle"
+        },
+        {
+            "font_class": "fa fa-minus-square"
+        },
+        {
+            "font_class": "fa fa-minus-square-o"
+        },
+        {
+            "font_class": "fa fa-mixcloud"
+        },
+        {
+            "font_class": "fa fa-mobile"
+        },
+        {
+            "font_class": "fa fa-mobile-phone"
+        },
+        {
+            "font_class": "fa fa-modx"
+        },
+        {
+            "font_class": "fa fa-money"
+        },
+        {
+            "font_class": "fa fa-moon-o"
+        },
+        {
+            "font_class": "fa fa-mortar-board"
+        },
+        {
+            "font_class": "fa fa-motorcycle"
+        },
+        {
+            "font_class": "fa fa-mouse-pointer"
+        },
+        {
+            "font_class": "fa fa-music"
+        },
+        {
+            "font_class": "fa fa-navicon"
+        },
+        {
+            "font_class": "fa fa-neuter"
+        },
+        {
+            "font_class": "fa fa-newspaper-o"
+        },
+        {
+            "font_class": "fa fa-object-group"
+        },
+        {
+            "font_class": "fa fa-object-ungroup"
+        },
+        {
+            "font_class": "fa fa-odnoklassniki"
+        },
+        {
+            "font_class": "fa fa-odnoklassniki-square"
+        },
+        {
+            "font_class": "fa fa-opencart"
+        },
+        {
+            "font_class": "fa fa-openid"
+        },
+        {
+            "font_class": "fa fa-opera"
+        },
+        {
+            "font_class": "fa fa-optin-monster"
+        },
+        {
+            "font_class": "fa fa-outdent"
+        },
+        {
+            "font_class": "fa fa-pagelines"
+        },
+        {
+            "font_class": "fa fa-paint-brush"
+        },
+        {
+            "font_class": "fa fa-paper-plane"
+        },
+        {
+            "font_class": "fa fa-paper-plane-o"
+        },
+        {
+            "font_class": "fa fa-paperclip"
+        },
+        {
+            "font_class": "fa fa-paragraph"
+        },
+        {
+            "font_class": "fa fa-paste"
+        },
+        {
+            "font_class": "fa fa-pause"
+        },
+        {
+            "font_class": "fa fa-pause-circle"
+        },
+        {
+            "font_class": "fa fa-pause-circle-o"
+        },
+        {
+            "font_class": "fa fa-paw"
+        },
+        {
+            "font_class": "fa fa-paypal"
+        },
+        {
+            "font_class": "fa fa-pencil"
+        },
+        {
+            "font_class": "fa fa-pencil-square"
+        },
+        {
+            "font_class": "fa fa-pencil-square-o"
+        },
+        {
+            "font_class": "fa fa-percent"
+        },
+        {
+            "font_class": "fa fa-phone"
+        },
+        {
+            "font_class": "fa fa-phone-square"
+        },
+        {
+            "font_class": "fa fa-photo"
+        },
+        {
+            "font_class": "fa fa-picture-o"
+        },
+        {
+            "font_class": "fa fa-pie-chart"
+        },
+        {
+            "font_class": "fa fa-pied-piper"
+        },
+        {
+            "font_class": "fa fa-pied-piper-alt"
+        },
+        {
+            "font_class": "fa fa-pied-piper-pp"
+        },
+        {
+            "font_class": "fa fa-pinterest"
+        },
+        {
+            "font_class": "fa fa-pinterest-p"
+        },
+        {
+            "font_class": "fa fa-pinterest-square"
+        },
+        {
+            "font_class": "fa fa-plane"
+        },
+        {
+            "font_class": "fa fa-play"
+        },
+        {
+            "font_class": "fa fa-play-circle"
+        },
+        {
+            "font_class": "fa fa-play-circle-o"
+        },
+        {
+            "font_class": "fa fa-plug"
+        },
+        {
+            "font_class": "fa fa-plus"
+        },
+        {
+            "font_class": "fa fa-plus-circle"
+        },
+        {
+            "font_class": "fa fa-plus-square"
+        },
+        {
+            "font_class": "fa fa-plus-square-o"
+        },
+        {
+            "font_class": "fa fa-podcast"
+        },
+        {
+            "font_class": "fa fa-power-off"
+        },
+        {
+            "font_class": "fa fa-print"
+        },
+        {
+            "font_class": "fa fa-product-hunt"
+        },
+        {
+            "font_class": "fa fa-puzzle-piece"
+        },
+        {
+            "font_class": "fa fa-qq"
+        },
+        {
+            "font_class": "fa fa-qrcode"
+        },
+        {
+            "font_class": "fa fa-question"
+        },
+        {
+            "font_class": "fa fa-question-circle"
+        },
+        {
+            "font_class": "fa fa-question-circle-o"
+        },
+        {
+            "font_class": "fa fa-quora"
+        },
+        {
+            "font_class": "fa fa-quote-left"
+        },
+        {
+            "font_class": "fa fa-quote-right"
+        },
+        {
+            "font_class": "fa fa-ra"
+        },
+        {
+            "font_class": "fa fa-random"
+        },
+        {
+            "font_class": "fa fa-ravelry"
+        },
+        {
+            "font_class": "fa fa-rebel"
+        },
+        {
+            "font_class": "fa fa-recycle"
+        },
+        {
+            "font_class": "fa fa-reddit"
+        },
+        {
+            "font_class": "fa fa-reddit-alien"
+        },
+        {
+            "font_class": "fa fa-reddit-square"
+        },
+        {
+            "font_class": "fa fa-refresh"
+        },
+        {
+            "font_class": "fa fa-registered"
+        },
+        {
+            "font_class": "fa fa-remove"
+        },
+        {
+            "font_class": "fa fa-renren"
+        },
+        {
+            "font_class": "fa fa-reorder"
+        },
+        {
+            "font_class": "fa fa-repeat"
+        },
+        {
+            "font_class": "fa fa-reply"
+        },
+        {
+            "font_class": "fa fa-reply-all"
+        },
+        {
+            "font_class": "fa fa-resistance"
+        },
+        {
+            "font_class": "fa fa-retweet"
+        },
+        {
+            "font_class": "fa fa-rmb"
+        },
+        {
+            "font_class": "fa fa-road"
+        },
+        {
+            "font_class": "fa fa-rocket"
+        },
+        {
+            "font_class": "fa fa-rotate-left"
+        },
+        {
+            "font_class": "fa fa-rotate-right"
+        },
+        {
+            "font_class": "fa fa-rouble"
+        },
+        {
+            "font_class": "fa fa-rss"
+        },
+        {
+            "font_class": "fa fa-rss-square"
+        },
+        {
+            "font_class": "fa fa-rub"
+        },
+        {
+            "font_class": "fa fa-ruble"
+        },
+        {
+            "font_class": "fa fa-rupee"
+        },
+        {
+            "font_class": "fa fa-s15"
+        },
+        {
+            "font_class": "fa fa-safari"
+        },
+        {
+            "font_class": "fa fa-save"
+        },
+        {
+            "font_class": "fa fa-scissors"
+        },
+        {
+            "font_class": "fa fa-scribd"
+        },
+        {
+            "font_class": "fa fa-search"
+        },
+        {
+            "font_class": "fa fa-search-minus"
+        },
+        {
+            "font_class": "fa fa-search-plus"
+        },
+        {
+            "font_class": "fa fa-sellsy"
+        },
+        {
+            "font_class": "fa fa-send"
+        },
+        {
+            "font_class": "fa fa-send-o"
+        },
+        {
+            "font_class": "fa fa-server"
+        },
+        {
+            "font_class": "fa fa-share"
+        },
+        {
+            "font_class": "fa fa-share-alt"
+        },
+        {
+            "font_class": "fa fa-share-alt-square"
+        },
+        {
+            "font_class": "fa fa-share-square"
+        },
+        {
+            "font_class": "fa fa-share-square-o"
+        },
+        {
+            "font_class": "fa fa-shekel"
+        },
+        {
+            "font_class": "fa fa-sheqel"
+        },
+        {
+            "font_class": "fa fa-shield"
+        },
+        {
+            "font_class": "fa fa-ship"
+        },
+        {
+            "font_class": "fa fa-shirtsinbulk"
+        },
+        {
+            "font_class": "fa fa-shopping-bag"
+        },
+        {
+            "font_class": "fa fa-shopping-basket"
+        },
+        {
+            "font_class": "fa fa-shopping-cart"
+        },
+        {
+            "font_class": "fa fa-shower"
+        },
+        {
+            "font_class": "fa fa-sign-in"
+        },
+        {
+            "font_class": "fa fa-sign-language"
+        },
+        {
+            "font_class": "fa fa-sign-out"
+        },
+        {
+            "font_class": "fa fa-signal"
+        },
+        {
+            "font_class": "fa fa-signing"
+        },
+        {
+            "font_class": "fa fa-simplybuilt"
+        },
+        {
+            "font_class": "fa fa-sitemap"
+        },
+        {
+            "font_class": "fa fa-skyatlas"
+        },
+        {
+            "font_class": "fa fa-skype"
+        },
+        {
+            "font_class": "fa fa-slack"
+        },
+        {
+            "font_class": "fa fa-sliders"
+        },
+        {
+            "font_class": "fa fa-slideshare"
+        },
+        {
+            "font_class": "fa fa-smile-o"
+        },
+        {
+            "font_class": "fa fa-snapchat"
+        },
+        {
+            "font_class": "fa fa-snapchat-ghost"
+        },
+        {
+            "font_class": "fa fa-snapchat-square"
+        },
+        {
+            "font_class": "fa fa-snowflake-o"
+        },
+        {
+            "font_class": "fa fa-soccer-ball-o"
+        },
+        {
+            "font_class": "fa fa-sort"
+        },
+        {
+            "font_class": "fa fa-sort-alpha-asc"
+        },
+        {
+            "font_class": "fa fa-sort-alpha-desc"
+        },
+        {
+            "font_class": "fa fa-sort-amount-asc"
+        },
+        {
+            "font_class": "fa fa-sort-amount-desc"
+        },
+        {
+            "font_class": "fa fa-sort-asc"
+        },
+        {
+            "font_class": "fa fa-sort-desc"
+        },
+        {
+            "font_class": "fa fa-sort-down"
+        },
+        {
+            "font_class": "fa fa-sort-numeric-asc"
+        },
+        {
+            "font_class": "fa fa-sort-numeric-desc"
+        },
+        {
+            "font_class": "fa fa-sort-up"
+        },
+        {
+            "font_class": "fa fa-soundcloud"
+        },
+        {
+            "font_class": "fa fa-space-shuttle"
+        },
+        {
+            "font_class": "fa fa-spinner"
+        },
+        {
+            "font_class": "fa fa-spoon"
+        },
+        {
+            "font_class": "fa fa-spotify"
+        },
+        {
+            "font_class": "fa fa-square"
+        },
+        {
+            "font_class": "fa fa-square-o"
+        },
+        {
+            "font_class": "fa fa-stack-exchange"
+        },
+        {
+            "font_class": "fa fa-stack-overflow"
+        },
+        {
+            "font_class": "fa fa-star"
+        },
+        {
+            "font_class": "fa fa-star-half"
+        },
+        {
+            "font_class": "fa fa-star-half-empty"
+        },
+        {
+            "font_class": "fa fa-star-half-full"
+        },
+        {
+            "font_class": "fa fa-star-half-o"
+        },
+        {
+            "font_class": "fa fa-star-o"
+        },
+        {
+            "font_class": "fa fa-steam"
+        },
+        {
+            "font_class": "fa fa-steam-square"
+        },
+        {
+            "font_class": "fa fa-step-backward"
+        },
+        {
+            "font_class": "fa fa-step-forward"
+        },
+        {
+            "font_class": "fa fa-stethoscope"
+        },
+        {
+            "font_class": "fa fa-sticky-note"
+        },
+        {
+            "font_class": "fa fa-sticky-note-o"
+        },
+        {
+            "font_class": "fa fa-stop"
+        },
+        {
+            "font_class": "fa fa-stop-circle"
+        },
+        {
+            "font_class": "fa fa-stop-circle-o"
+        },
+        {
+            "font_class": "fa fa-street-view"
+        },
+        {
+            "font_class": "fa fa-strikethrough"
+        },
+        {
+            "font_class": "fa fa-stumbleupon"
+        },
+        {
+            "font_class": "fa fa-stumbleupon-circle"
+        },
+        {
+            "font_class": "fa fa-subscript"
+        },
+        {
+            "font_class": "fa fa-subway"
+        },
+        {
+            "font_class": "fa fa-suitcase"
+        },
+        {
+            "font_class": "fa fa-sun-o"
+        },
+        {
+            "font_class": "fa fa-superpowers"
+        },
+        {
+            "font_class": "fa fa-superscript"
+        },
+        {
+            "font_class": "fa fa-support"
+        },
+        {
+            "font_class": "fa fa-table"
+        },
+        {
+            "font_class": "fa fa-tablet"
+        },
+        {
+            "font_class": "fa fa-tachometer"
+        },
+        {
+            "font_class": "fa fa-tag"
+        },
+        {
+            "font_class": "fa fa-tags"
+        },
+        {
+            "font_class": "fa fa-tasks"
+        },
+        {
+            "font_class": "fa fa-taxi"
+        },
+        {
+            "font_class": "fa fa-telegram"
+        },
+        {
+            "font_class": "fa fa-television"
+        },
+        {
+            "font_class": "fa fa-tencent-weibo"
+        },
+        {
+            "font_class": "fa fa-terminal"
+        },
+        {
+            "font_class": "fa fa-text-height"
+        },
+        {
+            "font_class": "fa fa-text-width"
+        },
+        {
+            "font_class": "fa fa-th"
+        },
+        {
+            "font_class": "fa fa-th-large"
+        },
+        {
+            "font_class": "fa fa-th-list"
+        },
+        {
+            "font_class": "fa fa-themeisle"
+        },
+        {
+            "font_class": "fa fa-thermometer"
+        },
+        {
+            "font_class": "fa fa-thermometer-0"
+        },
+        {
+            "font_class": "fa fa-thermometer-1"
+        },
+        {
+            "font_class": "fa fa-thermometer-2"
+        },
+        {
+            "font_class": "fa fa-thermometer-3"
+        },
+        {
+            "font_class": "fa fa-thermometer-4"
+        },
+        {
+            "font_class": "fa fa-thermometer-empty"
+        },
+        {
+            "font_class": "fa fa-thermometer-full"
+        },
+        {
+            "font_class": "fa fa-thermometer-half"
+        },
+        {
+            "font_class": "fa fa-thermometer-quarter"
+        },
+        {
+            "font_class": "fa fa-thermometer-three-quarters"
+        },
+        {
+            "font_class": "fa fa-thumb-tack"
+        },
+        {
+            "font_class": "fa fa-thumbs-down"
+        },
+        {
+            "font_class": "fa fa-thumbs-o-down"
+        },
+        {
+            "font_class": "fa fa-thumbs-o-up"
+        },
+        {
+            "font_class": "fa fa-thumbs-up"
+        },
+        {
+            "font_class": "fa fa-ticket"
+        },
+        {
+            "font_class": "fa fa-times"
+        },
+        {
+            "font_class": "fa fa-times-circle"
+        },
+        {
+            "font_class": "fa fa-times-circle-o"
+        },
+        {
+            "font_class": "fa fa-times-rectangle"
+        },
+        {
+            "font_class": "fa fa-times-rectangle-o"
+        },
+        {
+            "font_class": "fa fa-tint"
+        },
+        {
+            "font_class": "fa fa-toggle-down"
+        },
+        {
+            "font_class": "fa fa-toggle-left"
+        },
+        {
+            "font_class": "fa fa-toggle-off"
+        },
+        {
+            "font_class": "fa fa-toggle-on"
+        },
+        {
+            "font_class": "fa fa-toggle-right"
+        },
+        {
+            "font_class": "fa fa-toggle-up"
+        },
+        {
+            "font_class": "fa fa-trademark"
+        },
+        {
+            "font_class": "fa fa-train"
+        },
+        {
+            "font_class": "fa fa-transgender"
+        },
+        {
+            "font_class": "fa fa-transgender-alt"
+        },
+        {
+            "font_class": "fa fa-trash"
+        },
+        {
+            "font_class": "fa fa-trash-o"
+        },
+        {
+            "font_class": "fa fa-tree"
+        },
+        {
+            "font_class": "fa fa-trello"
+        },
+        {
+            "font_class": "fa fa-tripadvisor"
+        },
+        {
+            "font_class": "fa fa-trophy"
+        },
+        {
+            "font_class": "fa fa-truck"
+        },
+        {
+            "font_class": "fa fa-try"
+        },
+        {
+            "font_class": "fa fa-tty"
+        },
+        {
+            "font_class": "fa fa-tumblr"
+        },
+        {
+            "font_class": "fa fa-tumblr-square"
+        },
+        {
+            "font_class": "fa fa-turkish-lira"
+        },
+        {
+            "font_class": "fa fa-tv"
+        },
+        {
+            "font_class": "fa fa-twitch"
+        },
+        {
+            "font_class": "fa fa-twitter"
+        },
+        {
+            "font_class": "fa fa-twitter-square"
+        },
+        {
+            "font_class": "fa fa-umbrella"
+        },
+        {
+            "font_class": "fa fa-underline"
+        },
+        {
+            "font_class": "fa fa-undo"
+        },
+        {
+            "font_class": "fa fa-universal-access"
+        },
+        {
+            "font_class": "fa fa-university"
+        },
+        {
+            "font_class": "fa fa-unlink"
+        },
+        {
+            "font_class": "fa fa-unlock"
+        },
+        {
+            "font_class": "fa fa-unlock-alt"
+        },
+        {
+            "font_class": "fa fa-unsorted"
+        },
+        {
+            "font_class": "fa fa-upload"
+        },
+        {
+            "font_class": "fa fa-usb"
+        },
+        {
+            "font_class": "fa fa-usd"
+        },
+        {
+            "font_class": "fa fa-user"
+        },
+        {
+            "font_class": "fa fa-user-circle"
+        },
+        {
+            "font_class": "fa fa-user-circle-o"
+        },
+        {
+            "font_class": "fa fa-user-md"
+        },
+        {
+            "font_class": "fa fa-user-o"
+        },
+        {
+            "font_class": "fa fa-user-plus"
+        },
+        {
+            "font_class": "fa fa-user-secret"
+        },
+        {
+            "font_class": "fa fa-user-times"
+        },
+        {
+            "font_class": "fa fa-users"
+        },
+        {
+            "font_class": "fa fa-vcard"
+        },
+        {
+            "font_class": "fa fa-vcard-o"
+        },
+        {
+            "font_class": "fa fa-venus"
+        },
+        {
+            "font_class": "fa fa-venus-double"
+        },
+        {
+            "font_class": "fa fa-venus-mars"
+        },
+        {
+            "font_class": "fa fa-viacoin"
+        },
+        {
+            "font_class": "fa fa-viadeo"
+        },
+        {
+            "font_class": "fa fa-viadeo-square"
+        },
+        {
+            "font_class": "fa fa-video-camera"
+        },
+        {
+            "font_class": "fa fa-vimeo"
+        },
+        {
+            "font_class": "fa fa-vimeo-square"
+        },
+        {
+            "font_class": "fa fa-vine"
+        },
+        {
+            "font_class": "fa fa-vk"
+        },
+        {
+            "font_class": "fa fa-volume-control-phone"
+        },
+        {
+            "font_class": "fa fa-volume-down"
+        },
+        {
+            "font_class": "fa fa-volume-off"
+        },
+        {
+            "font_class": "fa fa-volume-up"
+        },
+        {
+            "font_class": "fa fa-warning"
+        },
+        {
+            "font_class": "fa fa-wechat"
+        },
+        {
+            "font_class": "fa fa-weibo"
+        },
+        {
+            "font_class": "fa fa-weixin"
+        },
+        {
+            "font_class": "fa fa-whatsapp"
+        },
+        {
+            "font_class": "fa fa-wheelchair"
+        },
+        {
+            "font_class": "fa fa-wheelchair-alt"
+        },
+        {
+            "font_class": "fa fa-wifi"
+        },
+        {
+            "font_class": "fa fa-wikipedia-w"
+        },
+        {
+            "font_class": "fa fa-window-close"
+        },
+        {
+            "font_class": "fa fa-window-close-o"
+        },
+        {
+            "font_class": "fa fa-window-maximize"
+        },
+        {
+            "font_class": "fa fa-window-minimize"
+        },
+        {
+            "font_class": "fa fa-window-restore"
+        },
+        {
+            "font_class": "fa fa-windows"
+        },
+        {
+            "font_class": "fa fa-won"
+        },
+        {
+            "font_class": "fa fa-wordpress"
+        },
+        {
+            "font_class": "fa fa-wpbeginner"
+        },
+        {
+            "font_class": "fa fa-wpexplorer"
+        },
+        {
+            "font_class": "fa fa-wpforms"
+        },
+        {
+            "font_class": "fa fa-wrench"
+        },
+        {
+            "font_class": "fa fa-xing"
+        },
+        {
+            "font_class": "fa fa-xing-square"
+        },
+        {
+            "font_class": "fa fa-y-combinator"
+        },
+        {
+            "font_class": "fa fa-y-combinator-square"
+        },
+        {
+            "font_class": "fa fa-yahoo"
+        },
+        {
+            "font_class": "fa fa-yc"
+        },
+        {
+            "font_class": "fa fa-yc-square"
+        },
+        {
+            "font_class": "fa fa-yelp"
+        },
+        {
+            "font_class": "fa fa-yen"
+        },
+        {
+            "font_class": "fa fa-yoast"
+        },
+        {
+            "font_class": "fa fa-youtube"
+        },
+        {
+            "font_class": "fa fa-youtube-play"
+        },
+        {
+            "font_class": "fa fa-youtube-square"
+        }
+    ]
+}

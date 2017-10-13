@@ -1,0 +1,84 @@
+.select2 {
+    &.select2-container--default {
+        .select2-selection:hover {
+            border: solid 1px @defaultHoverColor !important;
+            border-radius: 3px;
+        }
+    }
+    .select2-selection__arrow b {
+        border-color: transparent;
+        text-align: center;
+    }
+    .select2-selection__arrow b:before {
+        content: "\e64c";
+        font-family: "iconfont";
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: -10px;
+        left: -6px;
+    }
+    &.select2-container.select2-container--open .select2-selection--single .select2-selection__arrow b,
+    &.select2-container.select2-container--primary .select2-selection--single .select2-selection__arrow b,
+    &.select2-container.select2-container--info .select2-selection--single .select2-selection__arrow b,
+    &.select2-container.select2-container--success .select2-selection--single .select2-selection__arrow b,
+    &.select2-container.select2-container--warning .select2-selection--single .select2-selection__arrow b,
+    &.select2-container.select2-container--danger .select2-selection--single .select2-selection__arrow b {
+        border-color: transparent;
+    }
+    &.select2-container.select2-container--primary .select2-selection--single .select2-selection__arrow b {}
+    &.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+        &.select2-selection__choice {
+            border-radius: 1px;
+            background: #E9F0F7;
+        }
+        .select2-selection__choice__remove {
+            float: right;
+            position: relative;
+            margin-left: 4px;
+            margin-right: 4px;
+            &:after{
+                position: absolute;
+                content: "\e63c";
+                font-family: "iconfont";
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: #E9F0F7;
+                z-index: 2;
+            }
+        }
+    }
+}
+
+.select2-container .select2-dropdown {
+    &:hover {
+        .select2 {
+            &.select2-container--default {
+                .select2-selection {
+                    border: solid 1px @defaultHoverColor !important;
+                    border-radius: 3px;
+                    box-shadow: 0 0 2px 2px #296AB4 0.25;
+                }
+            }
+        }
+    }
+    ul.select2-results__options {
+        margin-right: 0;
+        padding-left: 0;
+        li.select2-results__option--highlighted {
+            background: #E9F0F7 !important;
+            color: #515152;
+        }
+        li[aria-selected="true"] {
+            background: #fff;
+            color: @primary;
+        }
+    }
+    .select2-search__field:focus {
+        border: solid 1px @defaultHoverColor;
+        box-shadow: 0px 0px 2px 2px rgba(41, 106, 180, 0.25);
+    }
+}

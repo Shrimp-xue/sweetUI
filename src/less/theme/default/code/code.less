@@ -1,0 +1,37 @@
+@import "code-config.less";
+code[class*="language-"], pre[class*="language-"]
+{
+	background: @codeBlockBackGround;
+	border-color: @codeBorderColor;
+	color: #3182bd;
+}
+.token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol, .token.deleted
+{
+	color: #756bb1;
+}
+.markdown-body
+{
+	font-size: @font-size-large;
+	pre
+	{
+		background-color: @codeBlockBackGround;
+		border-color: @codeBorderColor !important;
+		code
+		{
+			color: #3182bd;
+
+			.kwd
+			{
+				color:#DD4A68;
+			}
+			.com,.pun
+			{
+				color: slategray;
+			}
+			.pln
+			{
+				color: #07a;
+			}
+		}
+	}
+}

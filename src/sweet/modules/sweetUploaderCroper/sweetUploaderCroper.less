@@ -1,0 +1,60 @@
+// 长传头像及裁剪图片
+.sw-uploader-croper {
+    .cropperBox {
+        div {
+            float: left;
+        }
+        .cropper {
+            position: relative;
+            margin-left: 0;
+            margin-right: 0;
+            padding: 0;
+            width: 400px;
+            height: 300px;
+            background-color:#dedede;
+        }
+        .croper-text
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+            color: white;
+            margin: 0;
+            paddding:0;
+            display: block;
+        }
+        .cropperImg {
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+            background-color: #dedede;
+            margin-left: 60px;
+            position: relative;
+            overflow: hidden;
+            img 
+            {
+                width: 128px;
+                height: 128px;
+                
+                display: none;
+                position: absolute;
+                z-index:1;
+
+                top: 50%;
+                left: 50%;
+                transform:translate(-50%,-50%);
+            }
+        }
+    }
+    .webuploader-pick {
+        line-height: 21px;
+        padding: 5px 15px;
+        background: #fff;
+        color: #4f4f4f;
+        border: solid 1px #e5e5e5;
+    }
+    .layui-layer-content {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,793 @@
+{
+    "icons": [
+        {
+            "font_class": "glyphicon glyphicon-asterisk"
+        },
+        {
+            "font_class": "glyphicon glyphicon-plus"
+        },
+        {
+            "font_class": "glyphicon glyphicon-euro"
+        },
+        {
+            "font_class": "glyphicon glyphicon-eur"
+        },
+        {
+            "font_class": "glyphicon glyphicon-minus"
+        },
+        {
+            "font_class": "glyphicon glyphicon-cloud"
+        },
+        {
+            "font_class": "glyphicon glyphicon-envelope"
+        },
+        {
+            "font_class": "glyphicon glyphicon-pencil"
+        },
+        {
+            "font_class": "glyphicon glyphicon-glass"
+        },
+        {
+            "font_class": "glyphicon glyphicon-music"
+        },
+        {
+            "font_class": "glyphicon glyphicon-search"
+        },
+        {
+            "font_class": "glyphicon glyphicon-heart"
+        },
+        {
+            "font_class": "glyphicon glyphicon-star"
+        },
+        {
+            "font_class": "glyphicon glyphicon-star-empty"
+        },
+        {
+            "font_class": "glyphicon glyphicon-user"
+        },
+        {
+            "font_class": "glyphicon glyphicon-film"
+        },
+        {
+            "font_class": "glyphicon glyphicon-th-large"
+        },
+        {
+            "font_class": "glyphicon glyphicon-th"
+        },
+        {
+            "font_class": "glyphicon glyphicon-th-list"
+        },
+        {
+            "font_class": "glyphicon glyphicon-ok"
+        },
+        {
+            "font_class": "glyphicon glyphicon-remove"
+        },
+        {
+            "font_class": "glyphicon glyphicon-zoom-in"
+        },
+        {
+            "font_class": "glyphicon glyphicon-zoom-out"
+        },
+        {
+            "font_class": "glyphicon glyphicon-off"
+        },
+        {
+            "font_class": "glyphicon glyphicon-signal"
+        },
+        {
+            "font_class": "glyphicon glyphicon-cog"
+        },
+        {
+            "font_class": "glyphicon glyphicon-trash"
+        },
+        {
+            "font_class": "glyphicon glyphicon-home"
+        },
+        {
+            "font_class": "glyphicon glyphicon-file"
+        },
+        {
+            "font_class": "glyphicon glyphicon-time"
+        },
+        {
+            "font_class": "glyphicon glyphicon-road"
+        },
+        {
+            "font_class": "glyphicon glyphicon-download-alt"
+        },
+        {
+            "font_class": "glyphicon glyphicon-download"
+        },
+        {
+            "font_class": "glyphicon glyphicon-upload"
+        },
+        {
+            "font_class": "glyphicon glyphicon-inbox"
+        },
+        {
+            "font_class": "glyphicon glyphicon-play-circle"
+        },
+        {
+            "font_class": "glyphicon glyphicon-repeat"
+        },
+        {
+            "font_class": "glyphicon glyphicon-refresh"
+        },
+        {
+            "font_class": "glyphicon glyphicon-list-alt"
+        },
+        {
+            "font_class": "glyphicon glyphicon-lock"
+        },
+        {
+            "font_class": "glyphicon glyphicon-flag"
+        },
+        {
+            "font_class": "glyphicon glyphicon-headphones"
+        },
+        {
+            "font_class": "glyphicon glyphicon-volume-off"
+        },
+        {
+            "font_class": "glyphicon glyphicon-volume-down"
+        },
+        {
+            "font_class": "glyphicon glyphicon-volume-up"
+        },
+        {
+            "font_class": "glyphicon glyphicon-qrcode"
+        },
+        {
+            "font_class": "glyphicon glyphicon-barcode"
+        },
+        {
+            "font_class": "glyphicon glyphicon-tag"
+        },
+        {
+            "font_class": "glyphicon glyphicon-tags"
+        },
+        {
+            "font_class": "glyphicon glyphicon-book"
+        },
+        {
+            "font_class": "glyphicon glyphicon-bookmark"
+        },
+        {
+            "font_class": "glyphicon glyphicon-print"
+        },
+        {
+            "font_class": "glyphicon glyphicon-camera"
+        },
+        {
+            "font_class": "glyphicon glyphicon-font"
+        },
+        {
+            "font_class": "glyphicon glyphicon-bold"
+        },
+        {
+            "font_class": "glyphicon glyphicon-italic"
+        },
+        {
+            "font_class": "glyphicon glyphicon-text-height"
+        },
+        {
+            "font_class": "glyphicon glyphicon-text-width"
+        },
+        {
+            "font_class": "glyphicon glyphicon-align-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-align-center"
+        },
+        {
+            "font_class": "glyphicon glyphicon-align-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-align-justify"
+        },
+        {
+            "font_class": "glyphicon glyphicon-list"
+        },
+        {
+            "font_class": "glyphicon glyphicon-indent-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-indent-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-facetime-video"
+        },
+        {
+            "font_class": "glyphicon glyphicon-picture"
+        },
+        {
+            "font_class": "glyphicon glyphicon-map-marker"
+        },
+        {
+            "font_class": "glyphicon glyphicon-adjust"
+        },
+        {
+            "font_class": "glyphicon glyphicon-tint"
+        },
+        {
+            "font_class": "glyphicon glyphicon-edit"
+        },
+        {
+            "font_class": "glyphicon glyphicon-share"
+        },
+        {
+            "font_class": "glyphicon glyphicon-check"
+        },
+        {
+            "font_class": "glyphicon glyphicon-move"
+        },
+        {
+            "font_class": "glyphicon glyphicon-step-backward"
+        },
+        {
+            "font_class": "glyphicon glyphicon-fast-backward"
+        },
+        {
+            "font_class": "glyphicon glyphicon-backward"
+        },
+        {
+            "font_class": "glyphicon glyphicon-play"
+        },
+        {
+            "font_class": "glyphicon glyphicon-pause"
+        },
+        {
+            "font_class": "glyphicon glyphicon-stop"
+        },
+        {
+            "font_class": "glyphicon glyphicon-forward"
+        },
+        {
+            "font_class": "glyphicon glyphicon-fast-forward"
+        },
+        {
+            "font_class": "glyphicon glyphicon-step-forward"
+        },
+        {
+            "font_class": "glyphicon glyphicon-eject"
+        },
+        {
+            "font_class": "glyphicon glyphicon-chevron-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-chevron-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-plus-sign"
+        },
+        {
+            "font_class": "glyphicon glyphicon-minus-sign"
+        },
+        {
+            "font_class": "glyphicon glyphicon-remove-sign"
+        },
+        {
+            "font_class": "glyphicon glyphicon-ok-sign"
+        },
+        {
+            "font_class": "glyphicon glyphicon-question-sign"
+        },
+        {
+            "font_class": "glyphicon glyphicon-info-sign"
+        },
+        {
+            "font_class": "glyphicon glyphicon-screenshot"
+        },
+        {
+            "font_class": "glyphicon glyphicon-remove-circle"
+        },
+        {
+            "font_class": "glyphicon glyphicon-ok-circle"
+        },
+        {
+            "font_class": "glyphicon glyphicon-ban-circle"
+        },
+        {
+            "font_class": "glyphicon glyphicon-arrow-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-arrow-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-arrow-up"
+        },
+        {
+            "font_class": "glyphicon glyphicon-arrow-down"
+        },
+        {
+            "font_class": "glyphicon glyphicon-share-alt"
+        },
+        {
+            "font_class": "glyphicon glyphicon-resize-full"
+        },
+        {
+            "font_class": "glyphicon glyphicon-resize-small"
+        },
+        {
+            "font_class": "glyphicon glyphicon-exclamation-sign"
+        },
+        {
+            "font_class": "glyphicon glyphicon-gift"
+        },
+        {
+            "font_class": "glyphicon glyphicon-leaf"
+        },
+        {
+            "font_class": "glyphicon glyphicon-fire"
+        },
+        {
+            "font_class": "glyphicon glyphicon-eye-open"
+        },
+        {
+            "font_class": "glyphicon glyphicon-eye-close"
+        },
+        {
+            "font_class": "glyphicon glyphicon-warning-sign"
+        },
+        {
+            "font_class": "glyphicon glyphicon-plane"
+        },
+        {
+            "font_class": "glyphicon glyphicon-calendar"
+        },
+        {
+            "font_class": "glyphicon glyphicon-random"
+        },
+        {
+            "font_class": "glyphicon glyphicon-comment"
+        },
+        {
+            "font_class": "glyphicon glyphicon-magnet"
+        },
+        {
+            "font_class": "glyphicon glyphicon-chevron-up"
+        },
+        {
+            "font_class": "glyphicon glyphicon-chevron-down"
+        },
+        {
+            "font_class": "glyphicon glyphicon-retweet"
+        },
+        {
+            "font_class": "glyphicon glyphicon-shopping-cart"
+        },
+        {
+            "font_class": "glyphicon glyphicon-folder-close"
+        },
+        {
+            "font_class": "glyphicon glyphicon-folder-open"
+        },
+        {
+            "font_class": "glyphicon glyphicon-resize-vertical"
+        },
+        {
+            "font_class": "glyphicon glyphicon-resize-horizontal"
+        },
+        {
+            "font_class": "glyphicon glyphicon-hdd"
+        },
+        {
+            "font_class": "glyphicon glyphicon-bullhorn"
+        },
+        {
+            "font_class": "glyphicon glyphicon-bell"
+        },
+        {
+            "font_class": "glyphicon glyphicon-certificate"
+        },
+        {
+            "font_class": "glyphicon glyphicon-thumbs-up"
+        },
+        {
+            "font_class": "glyphicon glyphicon-thumbs-down"
+        },
+        {
+            "font_class": "glyphicon glyphicon-hand-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-hand-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-hand-up"
+        },
+        {
+            "font_class": "glyphicon glyphicon-hand-down"
+        },
+        {
+            "font_class": "glyphicon glyphicon-circle-arrow-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-circle-arrow-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-circle-arrow-up"
+        },
+        {
+            "font_class": "glyphicon glyphicon-circle-arrow-down"
+        },
+        {
+            "font_class": "glyphicon glyphicon-globe"
+        },
+        {
+            "font_class": "glyphicon glyphicon-wrench"
+        },
+        {
+            "font_class": "glyphicon glyphicon-tasks"
+        },
+        {
+            "font_class": "glyphicon glyphicon-filter"
+        },
+        {
+            "font_class": "glyphicon glyphicon-briefcase"
+        },
+        {
+            "font_class": "glyphicon glyphicon-fullscreen"
+        },
+        {
+            "font_class": "glyphicon glyphicon-dashboard"
+        },
+        {
+            "font_class": "glyphicon glyphicon-paperclip"
+        },
+        {
+            "font_class": "glyphicon glyphicon-heart-empty"
+        },
+        {
+            "font_class": "glyphicon glyphicon-link"
+        },
+        {
+            "font_class": "glyphicon glyphicon-phone"
+        },
+        {
+            "font_class": "glyphicon glyphicon-pushpin"
+        },
+        {
+            "font_class": "glyphicon glyphicon-usd"
+        },
+        {
+            "font_class": "glyphicon glyphicon-gbp"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sort"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sort-by-alphabet"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sort-by-alphabet-alt"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sort-by-order"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sort-by-order-alt"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sort-by-attributes"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sort-by-attributes-alt"
+        },
+        {
+            "font_class": "glyphicon glyphicon-unchecked"
+        },
+        {
+            "font_class": "glyphicon glyphicon-expand"
+        },
+        {
+            "font_class": "glyphicon glyphicon-collapse-down"
+        },
+        {
+            "font_class": "glyphicon glyphicon-collapse-up"
+        },
+        {
+            "font_class": "glyphicon glyphicon-log-in"
+        },
+        {
+            "font_class": "glyphicon glyphicon-flash"
+        },
+        {
+            "font_class": "glyphicon glyphicon-log-out"
+        },
+        {
+            "font_class": "glyphicon glyphicon-new-window"
+        },
+        {
+            "font_class": "glyphicon glyphicon-record"
+        },
+        {
+            "font_class": "glyphicon glyphicon-save"
+        },
+        {
+            "font_class": "glyphicon glyphicon-open"
+        },
+        {
+            "font_class": "glyphicon glyphicon-saved"
+        },
+        {
+            "font_class": "glyphicon glyphicon-import"
+        },
+        {
+            "font_class": "glyphicon glyphicon-export"
+        },
+        {
+            "font_class": "glyphicon glyphicon-send"
+        },
+        {
+            "font_class": "glyphicon glyphicon-floppy-disk"
+        },
+        {
+            "font_class": "glyphicon glyphicon-floppy-saved"
+        },
+        {
+            "font_class": "glyphicon glyphicon-floppy-remove"
+        },
+        {
+            "font_class": "glyphicon glyphicon-floppy-save"
+        },
+        {
+            "font_class": "glyphicon glyphicon-floppy-open"
+        },
+        {
+            "font_class": "glyphicon glyphicon-credit-card"
+        },
+        {
+            "font_class": "glyphicon glyphicon-transfer"
+        },
+        {
+            "font_class": "glyphicon glyphicon-cutlery"
+        },
+        {
+            "font_class": "glyphicon glyphicon-header"
+        },
+        {
+            "font_class": "glyphicon glyphicon-compressed"
+        },
+        {
+            "font_class": "glyphicon glyphicon-earphone"
+        },
+        {
+            "font_class": "glyphicon glyphicon-phone-alt"
+        },
+        {
+            "font_class": "glyphicon glyphicon-tower"
+        },
+        {
+            "font_class": "glyphicon glyphicon-stats"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sd-video"
+        },
+        {
+            "font_class": "glyphicon glyphicon-hd-video"
+        },
+        {
+            "font_class": "glyphicon glyphicon-subtitles"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sound-stereo"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sound-dolby"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sound-5-1"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sound-6-1"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sound-7-1"
+        },
+        {
+            "font_class": "glyphicon glyphicon-copyright-mark"
+        },
+        {
+            "font_class": "glyphicon glyphicon-registration-mark"
+        },
+        {
+            "font_class": "glyphicon glyphicon-cloud-download"
+        },
+        {
+            "font_class": "glyphicon glyphicon-cloud-upload"
+        },
+        {
+            "font_class": "glyphicon glyphicon-tree-conifer"
+        },
+        {
+            "font_class": "glyphicon glyphicon-tree-deciduous"
+        },
+        {
+            "font_class": "glyphicon glyphicon-cd"
+        },
+        {
+            "font_class": "glyphicon glyphicon-save-file"
+        },
+        {
+            "font_class": "glyphicon glyphicon-open-file"
+        },
+        {
+            "font_class": "glyphicon glyphicon-level-up"
+        },
+        {
+            "font_class": "glyphicon glyphicon-copy"
+        },
+        {
+            "font_class": "glyphicon glyphicon-paste"
+        },
+        {
+            "font_class": "glyphicon glyphicon-alert"
+        },
+        {
+            "font_class": "glyphicon glyphicon-equalizer"
+        },
+        {
+            "font_class": "glyphicon glyphicon-king"
+        },
+        {
+            "font_class": "glyphicon glyphicon-queen"
+        },
+        {
+            "font_class": "glyphicon glyphicon-pawn"
+        },
+        {
+            "font_class": "glyphicon glyphicon-bishop"
+        },
+        {
+            "font_class": "glyphicon glyphicon-knight"
+        },
+        {
+            "font_class": "glyphicon glyphicon-baby-formula"
+        },
+        {
+            "font_class": "glyphicon glyphicon-tent"
+        },
+        {
+            "font_class": "glyphicon glyphicon-blackboard"
+        },
+        {
+            "font_class": "glyphicon glyphicon-bed"
+        },
+        {
+            "font_class": "glyphicon glyphicon-apple"
+        },
+        {
+            "font_class": "glyphicon glyphicon-erase"
+        },
+        {
+            "font_class": "glyphicon glyphicon-hourglass"
+        },
+        {
+            "font_class": "glyphicon glyphicon-lamp"
+        },
+        {
+            "font_class": "glyphicon glyphicon-duplicate"
+        },
+        {
+            "font_class": "glyphicon glyphicon-piggy-bank"
+        },
+        {
+            "font_class": "glyphicon glyphicon-scissors"
+        },
+        {
+            "font_class": "glyphicon glyphicon-bitcoin"
+        },
+        {
+            "font_class": "glyphicon glyphicon-btc"
+        },
+        {
+            "font_class": "glyphicon glyphicon-xbt"
+        },
+        {
+            "font_class": "glyphicon glyphicon-yen"
+        },
+        {
+            "font_class": "glyphicon glyphicon-jpy"
+        },
+        {
+            "font_class": "glyphicon glyphicon-ruble"
+        },
+        {
+            "font_class": "glyphicon glyphicon-rub"
+        },
+        {
+            "font_class": "glyphicon glyphicon-scale"
+        },
+        {
+            "font_class": "glyphicon glyphicon-ice-lolly"
+        },
+        {
+            "font_class": "glyphicon glyphicon-ice-lolly-tasted"
+        },
+        {
+            "font_class": "glyphicon glyphicon-education"
+        },
+        {
+            "font_class": "glyphicon glyphicon-option-horizontal"
+        },
+        {
+            "font_class": "glyphicon glyphicon-option-vertical"
+        },
+        {
+            "font_class": "glyphicon glyphicon-menu-hamburger"
+        },
+        {
+            "font_class": "glyphicon glyphicon-modal-window"
+        },
+        {
+            "font_class": "glyphicon glyphicon-oil"
+        },
+        {
+            "font_class": "glyphicon glyphicon-grain"
+        },
+        {
+            "font_class": "glyphicon glyphicon-sunglasses"
+        },
+        {
+            "font_class": "glyphicon glyphicon-text-size"
+        },
+        {
+            "font_class": "glyphicon glyphicon-text-color"
+        },
+        {
+            "font_class": "glyphicon glyphicon-text-background"
+        },
+        {
+            "font_class": "glyphicon glyphicon-object-align-top"
+        },
+        {
+            "font_class": "glyphicon glyphicon-object-align-bottom"
+        },
+        {
+            "font_class": "glyphicon glyphicon-object-align-horizontal"
+        },
+        {
+            "font_class": "glyphicon glyphicon-object-align-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-object-align-vertical"
+        },
+        {
+            "font_class": "glyphicon glyphicon-object-align-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-triangle-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-triangle-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-triangle-bottom"
+        },
+        {
+            "font_class": "glyphicon glyphicon-triangle-top"
+        },
+        {
+            "font_class": "glyphicon glyphicon-console"
+        },
+        {
+            "font_class": "glyphicon glyphicon-superscript"
+        },
+        {
+            "font_class": "glyphicon glyphicon-subscript"
+        },
+        {
+            "font_class": "glyphicon glyphicon-menu-left"
+        },
+        {
+            "font_class": "glyphicon glyphicon-menu-right"
+        },
+        {
+            "font_class": "glyphicon glyphicon-menu-down"
+        },
+        {
+            "font_class": "glyphicon glyphicon-menu-up"
+        }
+    ]
+}

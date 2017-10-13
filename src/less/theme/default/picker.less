@@ -1,0 +1,80 @@
+.datepicker .datepicker-days,.daterangepicker {
+    table {
+        border-collapse: separate;
+    }
+    table tr td {
+        border-radius: 3px;
+        &:hover {
+            background: #E9F0F7;
+        }
+        &.active {
+            background: @primary;
+            color: #fff;
+            width: 23px;
+            height: 26px;
+            &:hover{
+            	background: @primary;
+
+            }
+        }
+        &.start-date.end-date{
+            border-radius: 3px;
+        }
+        &.today {
+            border: solid 1px @primary;
+            background: #fff;
+            color: @primary;
+            &:not(.active):hover {
+                background: #E9F0F7;
+                border: solid 1px @primary; 
+            }
+        }
+        &.weekend{
+			color: @danger; 
+			&.active{
+				color: #fff;
+			}
+		}
+    }
+}
+.datepicker{
+    .datepicker-days,.datepicker-months,.datepicker-years{
+        thead tr th{
+            &.prev,&.next{
+                font-size: 18px;
+                color: #8E8E8F;
+            }
+        }
+    }
+    .datepicker-months,.datepicker-years{
+        table tr td{
+            span{
+                border-radius: 3px;
+                &.active{
+                    background: @primary;
+                }
+                &:not(.active):hover{
+                    background: #E9F0F7;
+                }
+            }
+        }
+    }
+}
+
+// // 日期范围选择器
+.daterangepicker{
+    thead tr th{
+        i{
+            color: #8E8E8F;
+        }
+    }
+	table tr td{
+		&:not(.active).in-range{
+			background: #E9F0F7;
+			border-radius: 0;
+		}
+		
+	}
+
+
+}

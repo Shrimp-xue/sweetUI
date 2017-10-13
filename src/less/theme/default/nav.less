@@ -1,0 +1,91 @@
+ .nav {
+     li {
+         a {
+             i {
+                 font-size: 12px;
+                 &:not(.iconRight) {
+                     margin-right: 8px;
+                 }
+                 &.iconRight {
+                     margin-left: 8px;
+                 }
+             }
+         }
+     }
+     &.navTablist {
+         li {
+             a {
+                 padding: 8px 16px 5px 16px;
+             }
+             &:not(.active) a {
+                 border: 1px solid #DEDEDE;
+                 background-color: #F5F5F5;
+                 margin-right: 2px;
+                 color: #8E8E8F;
+             }
+             &.active a {
+                 color: @defaultHoverColor;
+             }
+             &[disabled] a {
+                 color: #CBCBCB;
+                 background-color: #fff;
+             }
+         }
+     }
+     &.navMiniTab {
+         li {
+             a {
+                 padding-bottom: 9px;
+             }
+             &:not(.active) a {
+                 color: #8E8E8F;
+             }
+             &.active a {
+                 border: none;
+                 border-bottom: solid 2px @defaultHoverColor;
+                 color: @defaultHoverColor;
+             }
+             &[disabled] a {
+                 color: #CBCBCB;
+             }
+         }
+     }
+ }
+ 
+ .arrowsTablist {
+     position: relative;
+     padding: 0 22px;
+     border-bottom: 1px solid #ddd;
+     .nav-tabs {
+         border: 0;
+
+         .deletetab
+         {
+            width: 20px;
+            display: inline-block;
+         }
+     }
+     .arrow {
+         position: absolute;
+         height: 100%;
+         width: 22px;
+         z-index: 10;
+         cursor: pointer;
+         &.next {
+             right: 0;
+         }
+         &.pre {
+             left: 0;
+         }
+         .arrowInner {
+             display: block;
+             width: 100%;
+             height: 20px;
+             text-align: center;
+             line-height: 20px;
+             position: absolute;
+             top: 50%;
+             margin-top: -10px;
+         }
+     }
+ }

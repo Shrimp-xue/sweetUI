@@ -1,0 +1,60 @@
+.sw-ui-01 .frame-box .frame-top .nav-menu {
+    .nav-menu-item {
+        &.nav-menu-fullTop {
+            margin: 0;
+            & > a {
+                background: transparent;
+            }
+            &.active {
+                border-bottom: 4px solid #296ab4;
+            }
+            &.on {
+                border-bottom: 4px solid #296ab4;
+                & > a {
+                    color: #296ab4 !important;
+                }
+                .frame-navs-fullTop {
+                    visibility: visible;
+                    height: auto;
+                    min-height: 200px;
+                    opacity: 1;
+                }
+            }
+            .frame-navs-fullTop,
+            .frame-navs-fullTop.hide {
+                left: 0;
+                opacity: 0;
+                visibility: hidden;
+                position: absolute;
+                width: 100%;
+                background: white;
+                height: 0;
+                border-bottom: 1px solid #e5e5e5;
+                border-top: 1px solid #e5e5e5;
+                // transition: height .2s, opacity .2s;
+                color: #333;
+                padding: 15px 83px 31px 83px;
+                overflow: hidden;
+                .frame-navs-inner {
+                    min-height: 200px;
+                    padding: 0 50px;
+                    float: left;
+                    & > p {
+                        font-size: 12px;
+                    }
+                    .frame-fulltop-item {
+                        height: auto;
+                        line-height: 21px;
+                        text-align: left;
+                        padding: 0;
+                        margin-top: 21px;
+                        color: #333;
+                        &.active {
+                            color: #296ab4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

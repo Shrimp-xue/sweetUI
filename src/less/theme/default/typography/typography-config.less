@@ -1,0 +1,31 @@
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+@font-family-sans-serif:  @base-body-font-family;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
+
+@font-size-base:          12px;
+@font-size-large:         ceil((@font-size-base * 1.16)); // ~18px
+@font-size-small:         ceil((@font-size-base * 0.76)); // ~12px
+
+@font-size-h1:            floor((@font-size-base * 3)); // ~36px
+@font-size-h2:            floor((@font-size-base * 2.5)); // ~30px
+@font-size-h3:            ceil((@font-size-base * 2)); // ~24px
+@font-size-h4:            ceil((@font-size-base * 1.5)); // ~18px
+@font-size-h5:            ceil((@font-size-base * 1.16)); //~14px
+@font-size-h6:            @font-size-base;
+
+//** Unit-less `line-height` for use in components like buttons.
+@line-height-base:        1.522222; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+
+//** By default, this inherits from the `<body>`.
+@headings-font-family:    inherit;
+@headings-font-weight:    500;
+@headings-line-height:    1.1;
+@headings-color:          inherit;

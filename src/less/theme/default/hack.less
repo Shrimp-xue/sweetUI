@@ -1,0 +1,79 @@
+//部分修改样式
+.collapse.in {
+    height: auto !important;
+}
+
+.checkbox.noRadius label:before {
+    border-radius: 0 !important;
+}
+
+.table-extend {
+    & thead th {
+        background-color: #F6F6F6 !important;
+        border-bottom-width: 1px !important;
+    }
+    .radio.radio-single,
+    .checkbox.checkbox-single {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+        width: 17px;
+        height: 17px;
+        label {
+            padding: 0;
+            margin: 0;
+            width: 17px;
+            height: 17px;
+            max-height: 17px;
+            &:after,
+            &:before {
+                margin: 0;
+            }
+        }
+        input {
+            margin: 0;
+            top: 50%;
+            left: 50%;
+            width: 15px;
+            height: 15px;
+            transform: translate(-50%, -50%);
+            display: block;
+        }
+    }
+    td {
+        position: relative;
+    }
+    .tlabel {
+        text-align: center;
+    }
+}
+
+.label {
+    font-weight: normal;
+    padding: .4em 1em .3em;
+    border-radius: .15em;
+}
+
+.label-default {
+    background-color: #FAFAFA;
+    color: #5A5A5A;
+    border: 1px solid #D9D9D9;
+}
+
+//评价星星样式 
+.evaluate {
+    text-align: center;
+    margin: 0;
+    li {
+        padding: 0;
+        a {
+            color: @brand-warning;
+            text-decoration: none !important;
+        }
+    }
+}
+.has-error .form-inline-error-msg {
+  color: #D25F47;
+  font-size: 12px;
+}

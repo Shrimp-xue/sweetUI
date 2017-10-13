@@ -1,0 +1,18 @@
+@switchery-small-height   : ceil(@font-size-base*1.5);
+@switchery-default-height : ceil(@font-size-base*2.33333);
+@switchery-large-height   : ceil(@font-size-base*2.66666);
+
+@switchery-small-width    : 44px;
+@switchery-default-width  : 61px;
+@switchery-large-width    : 77px;
+
+@switchery-border-width   : 2px;
+
+.switcherySize(@height;@width){
+		height: @height;
+		width: @width;
+    & > small {
+        height:@height;
+        width:@height;
+    }
+}

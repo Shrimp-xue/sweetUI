@@ -1,0 +1,342 @@
+{
+    "code": "success",
+    "data": {
+        "userPermissionVO": [{
+            "id": 10,
+            "group": "基础",
+            "isTop":1,
+            "children": [{
+                "id": 100,
+                "name": "开始使用",
+                "level": 1,
+                "parent": 10,
+                "path": "100",
+                "icon": "ion-star",
+                "url": "#/main/index",
+                "isMenu": true
+            },{
+                "id": 101,
+                "name": "概览",
+                "level": 1,
+                "parent": 10,
+                "path": "101",
+                "icon": "ion-eye",
+                "url": "#/main/overview",
+                "isMenu": true
+            },{
+                "id": 102,
+                "name": "栅格系统",
+                "level": 1,
+                "parent": 10,
+                "path": "102",
+                "icon": "ion-eye",
+                "url": "#/main/grid",
+                "isMenu": true
+            },{
+                "id": 103,
+                "name": "字体图标",
+                "level": 1,
+                "parent": 10,
+                "path": "103",
+                "icon": "ion-android-list",
+                "url": "#/main/ionicons",
+                "isMenu": true
+            },{
+                "id": 104,
+                "name": "UI规范",
+                "level": 1,
+                "parent": 10,
+                "path": "104",
+                "icon": "ion-android-list",
+                "url": null,
+                "isMenu": true,
+                "children":[{
+                    "id": 10400,
+                    "name": "排版",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10400",
+                    "icon": "",
+                    "url": "#/main/ui/typography",
+                    "isMenu": true
+                },{
+                    "id": 10401,
+                    "name": "按钮",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10401",
+                    "icon": "",
+                    "url": null,
+                    "isMenu": true,
+                    "children":[{
+                        "id": 1040100,
+                        "name": "常规按钮",
+                        "level": 3,
+                        "parent": 10401,
+                        "path": "104-10401-1040100",
+                        "icon": "",
+                        "url": "#/main/ui/buttons/normal",
+                        "isMenu": true
+                    },{
+                        "id": 1040101,
+                        "name": "波纹按钮",
+                        "level": 3,
+                        "parent": 10401,
+                        "path": "104-10401-1040101",
+                        "icon": "",
+                        "url": "#/main/ui/buttons/wavesbutton",
+                        "isMenu": true
+                    }]
+                },{
+                    "id": 10402,
+                    "name": "单选/复选框",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10402",
+                    "icon": "",
+                    "url": "#/main/ui/checkbox-radio",
+                    "isMenu": true
+                },{
+                    "id": 10403,
+                    "name": "图片",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10403",
+                    "icon": "",
+                    "url": "#/main/ui/images",
+                    "isMenu": true
+                },{
+                    "id": 10404,
+                    "name": "导航条",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10404",
+                    "icon": "",
+                    "url": "#/main/ui/navs",
+                    "isMenu": true
+                },{
+                    "id": 10405,
+                    "name": "进度条",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10405",
+                    "icon": "",
+                    "url": "#/main/ui/progressbars",
+                    "isMenu": true
+                },{
+                    "id": 10406,
+                    "name": "消息提醒",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10406",
+                    "icon": "",
+                    "url": "#/main/ui/notify",
+                    "isMenu": true
+                },{
+                    "id": 10407,
+                    "name": "tabs选项卡",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10407",
+                    "icon": "",
+                    "url": "#/main/ui/tabs",
+                    "isMenu": true
+                },{
+                    "id": 10408,
+                    "name": "表格",
+                    "level": 2,
+                    "parent": 104,
+                    "path": "104-10408",
+                    "icon": "",
+                    "url": "#/main/ui/tables",
+                    "isMenu": true
+                }]
+            },{
+                "id": 105,
+                "name": "Form表单",
+                "level": 1,
+                "parent": 10,
+                "path": "105",
+                "icon": "ion-android-list",
+                "url": null,
+                "isMenu": true,
+                "children":[{
+                    "id": 10500,
+                    "name": "常规表单",
+                    "level": 2,
+                    "parent": 105,
+                    "path": "105-10500",
+                    "icon": "",
+                    "url": "#/main/form/normal",
+                    "isMenu": true
+                },{
+                    "id": 10501,
+                    "name": "高级表单",
+                    "level": 2,
+                    "parent": 105,
+                    "path": "105-10501",
+                    "icon": "",
+                    "url": "#/main/form/advancedform",
+                    "isMenu": true
+                },{
+                    "id": 10502,
+                    "name": "表单验证",
+                    "level": 2,
+                    "parent": 105,
+                    "path": "105-10502",
+                    "icon": "",
+                    "url": "#/main/form/validform",
+                    "isMenu": true
+                },{
+                    "id": 10503,
+                    "name": "表单选择器",
+                    "level": 2,
+                    "parent": 105,
+                    "path": "105-10503",
+                    "icon": "",
+                    "url": "#/main/form/picker",
+                    "isMenu": true
+                },{
+                    "id": 10504,
+                    "name": "分布表单",
+                    "level": 2,
+                    "parent": 105,
+                    "path": "105-10504",
+                    "icon": "",
+                    "url": "#/main/form/wizard",
+                    "isMenu": true
+                }]
+            }]
+        },{
+            "id": 30,
+            "group": "核心",
+            "isTop":1,
+            "children":[{
+                "id": 300,
+                "name": "路由系统",
+                "level": 1,
+                "parent": 30,
+                "path": "300",
+                "icon": "ion-android-list",
+                "url": "#/main/router",
+                "isMenu": true
+            },{
+                "id": 301,
+                "name": "面包屑",
+                "level": 1,
+                "parent": 30,
+                "path": "301",
+                "icon": "ion-android-list",
+                "url": "#/main/linkmap",
+                "isMenu": true
+            }]
+        },{
+            "id": 20,
+            "group": "扩展",
+            "isTop":1,
+            "children":[{
+                "id": 201,
+                "name": "sMenu导航",
+                "level": 1,
+                "parent": 20,
+                "path": "201",
+                "icon": "ion-android-list",
+                "url": null,
+                "isMenu": true,
+                "children":[{
+                    "id": 20100,
+                    "name": "树菜单",
+                    "level": 2,
+                    "parent": 201,
+                    "path": "201-20100",
+                    "icon": "",
+                    "url": "#/main/menu/stree",
+                    "isMenu": true
+                }]
+            },{
+                "id": 202,
+                "name": "图表",
+                "level": 1,
+                "parent": 20,
+                "path": "202",
+                "icon": "ion-android-list",
+                "url": null,
+                "isMenu": true,
+                "children":[{
+                    "id": 20200,
+                    "name": "简易图表",
+                    "level": 2,
+                    "parent": 202,
+                    "path": "202-20200",
+                    "icon": "",
+                    "url": "#/main/charts/peityCharts",
+                    "isMenu": true
+                },{
+                    "id": 20201,
+                    "name": "百度echarts",
+                    "level": 2,
+                    "parent": 202,
+                    "path": "202-20201",
+                    "icon": "",
+                    "url": "#/main/charts/eCharts",
+                    "isMenu": true
+                },{
+                    "id": 20202,
+                    "name": "百分比环形图",
+                    "level": 2,
+                    "parent": 202,
+                    "path": "202-20202",
+                    "icon": "",
+                    "url": "#/main/charts/radial",
+                    "isMenu": true
+                }]
+            },{
+                "id": 203,
+                "name": "弹出层",
+                "level": 1,
+                "parent": 20,
+                "path": "203",
+                "icon": "ion-android-list",
+                "url": "#/main/layer",
+                "isMenu": true
+            },{
+                "id": 204,
+                "name": "图片预览",
+                "level": 1,
+                "parent": 20,
+                "path": "204",
+                "icon": "ion-android-list",
+                "url": "#/main/zoomImg",
+                "isMenu": true
+            },{
+                "id": 205,
+                "name": "数据表格",
+                "level": 1,
+                "parent": 20,
+                "path": "205",
+                "icon": "ion-android-list",
+                "url": "#/main/data_table",
+                "isMenu": true
+            },{
+                "id": 206,
+                "name": "幻灯片",
+                "level": 1,
+                "parent": 20,
+                "path": "206",
+                "icon": "ion-android-list",
+                "url": "#/main/swiper",
+                "isMenu": true
+            },{
+                "id": 207,
+                "name": "图片上传",
+                "level": 1,
+                "parent": 20,
+                "path": "207",
+                "icon": "ion-android-list",
+                "url": "#/main/webuploader",
+                "isMenu": true
+            }]
+        }]
+    },
+    "message": "API调用成功"
+}

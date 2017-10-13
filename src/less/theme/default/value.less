@@ -1,0 +1,24 @@
+@defaultHoverColor: #296AB4;
+@defaultFontColor:#515152;
+//button.less
+@defaultButtonPadding: 6px 16px;
+@defaultButtonIconPadding: 6px 16px 5px 16px;
+@defaultButtonLgPadding: 6px 24px;
+@defaultButtonSmPadding: 3px 8px;
+@defaultButtonXsPadding: 1px 4px;
+// input.less
+.checkboxBorder(@borderColor){
+	input[type="checkbox"]:not([disabled]) + label::before {
+	    border: solid 1px @borderColor;
+	}
+}
+.radioBorder(@borderColor){
+	input[type="radio"]:not([disabled]) + label::before {
+	    border: solid 1px @borderColor;
+	}
+}
+@defaultInputCheckboxWidth: 14px;
+@defaultInputCheckboxHeight: 14px;
+@defaultInputControlPadding: 6px 8px;
+@defaultInputControlSmPadding: 3px 8px;
+@defaultInputControlLgPadding: 7px 8px;

@@ -1,0 +1,58 @@
+//== link-map
+.linkmap li
+{
+    color:#8E8E8F;
+    font-size:12px;
+    a
+    {
+        
+        display: inline;
+        
+        &[href]:hover
+        {
+            color: @brand-primary-dark;
+        }
+    }
+    &.current
+    {
+        color: #515152
+    }
+}
+.linkmap.sw-bg li
+{
+    color:#333;
+    font-size:14px;
+    &.current
+    {
+        font-size: 18px;
+    }
+}
+.linkmap li:before
+{
+    padding: 0 2px 0px 5px;
+    font-size: 12px;
+}
+.sw-link-map-current
+{
+    font-size: 18px;
+}
+
+.linkmap {
+    padding: 8px 15px;
+    list-style: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 0;
+    li {
+        display: inline-block;
+        a {
+            cursor: pointer;
+        }
+    }
+    li+li:before {
+        padding: 0 5px;
+        color: #ccc;
+        content: "/\00a0";
+    }
+}

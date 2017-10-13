@@ -1,0 +1,130 @@
+[{
+    "tabsArr": 
+    [
+    	{
+    		"type":"线条-底部",
+    		"class":"tabs nav-tabs tabsui",
+       	    "tabs": [
+       	    	{
+       	    		"name":"code",
+		            "text": "选项卡1",
+		            "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+	        	},
+	        	{
+	        		"name":"demo",
+	        		"text":"选项卡2",
+	        		"content":"Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+	        		
+	        	}
+        	]
+    	},
+    	{
+    		"type":"线条-顶部",
+    		"class":"nav-tabs tabsui tabs tabs-top",
+    		"tabs": [
+       	    	{
+       	    		"name":"code",
+		            "text": "选项卡1",
+		            "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+	        	},
+	        	{
+	        		"name":"demo",
+	        		"text":"选项卡2",
+	        		"content":"Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+	        		
+	        	}
+        	]
+    	},
+    	{
+    		"type":"方块",
+    		"class":"nav-tabs tabsui",
+    		"tabs": [
+       	    	{
+       	    		"name":"code",
+		            "text": "选项卡1",
+		            "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+	        	},
+	        	{
+	        		"name":"demo",
+	        		"text":"选项卡2",
+	        		"content":"Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+	        		
+	        	}
+        	]
+    	},
+    	{
+    		"type":"方块-底色",
+    		"class":"nav-tabs tabsui navtab-bg",
+    		"tabs": [
+       	    	{
+       	    		"name":"code",
+		            "text": "选项卡1",
+		            "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+	        	},
+	        	{
+	        		"name":"demo",
+	        		"text":"选项卡2",
+	        		"content":"Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+	        		
+	        	}
+        	]
+    	},
+    	{
+    		"type":"方块-底色-缩进",
+    		"class":"nav-tabs tabsui navtab-bg nav-justified",
+    		"tabs": [
+       	    	{
+       	    		"name":"code",
+		            "text": "选项卡1",
+		            "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+	        	},
+	        	{
+	        		"name":"demo",
+	        		"text":"选项卡2",
+	        		"content":"Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+	        		
+	        	}
+        	]
+    	},
+    	{
+    		"type":"竖向-靠左",
+    		"direction":"tabs-vertical-env",
+    		"class":"tabs-vertical",
+    		"tabs": [
+       	    	{
+       	    		"name":"code",
+		            "text": "选项卡1",
+		            "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+	        	},
+	        	{
+	        		"name":"demo",
+	        		"text":"选项卡2",
+	        		"content":"Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+	        		
+	        	}
+        	]
+        	
+    	},
+    	{
+    		"panel":1,
+    		"type":"竖向-靠左",
+    		"direction":"",
+    		"class":"",
+    		"tabs": [
+       	    	{
+       	    		"name":"code",
+		            "text": "选项卡1",
+		            "content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+	        	},
+	        	{
+	        		"name":"demo",
+	        		"text":"选项卡2",
+	        		"content":"Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+	        		
+	        	}
+        	]
+        	
+    	}
+	]
+}
+]

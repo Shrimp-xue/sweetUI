@@ -1,0 +1,252 @@
+> 本环境基于 __Ubuntu 16.04 LTS__ 进行安装配置
+
+# NodeJs 安装配置
+
+## 1. 下载并解压下载好的 node-v7.4.0-Linux-x86.tar.xz 
+```
+tar -xJf node-v7.4.0-Linux-x86.tar.xz 
+```
+## 2. 移到通用的软件安装目录 /opt/
+```
+sudo mv node-v7.4.0-Linux-x86.tar.xz /opt/node
+```
+## 3. 配置环境变量
+
+输入命令：`sudo vim` /etc/profile（如果没有安装vim，可根据提示安装），在末尾添加以下三行：
+```
+export NODE_HOME=/opt/node
+export PATH=$PATH:$NODE_HOME/bin 
+export NODE_PATH=$NODE_HOME/lib/node_modules
+```
+之后按Esc键，并输入 `：wq!` 命令保存配置并退出
+
+## 4. 激活配置
+在命令行输入：
+```
+source /etc/profile
+```
+## 5. root账户
+在命令行输入：
+```
+sudo vim /root/.bashrc
+```
+并在文件末尾加入一行命令，保存
+```
+source /etc/profile
+```
+
+## 6. 验证： 
+```
+node -v
+7.4.0
+
+npm -v
+4.0.5
+```    
+## 7. 切换npm源
+由于访问npm官方源不太稳定，因此推荐将官方源修改为国内的镜像
+```
+npm config set registry https://registry.npm.taobao.org
+```
+# Electron 安装
+
+## 1. 切换Electron Download的源
+```
+npm config set electron_mirror="https://npm.taobao.org/mirrors/electron/"
+```
+## 2. 安装Electron
+```
+//局部安装（推荐）
+npm install electron --save-dev
+
+//全局安装
+npm install electron -g
+
+```  
+## 3. 安装electron-prebuilt
+__electron-prebuilt__ 是一个 npm 模块，包含所使用的 Electron 预编译版本。主要在运行应用时使用
+```
+//全局安装
+npm install electron-prebuilt -g
+```
+
+## 4. 文档
+
+[Electron官方文档](http://electron.atom.io/docs/)
+
+[Electron中文文档](https://github.com/electron/electron/tree/master/docs-translations/zh-CN)
+
+# 第一个 Electron 应用
+
+## 目录结构
+```
+hello/
+├── package.json
+├── main.js
+└── index.html
+```
+
+package.json的格式和 Node 的完全一致，并且那个被 main 字段声明的脚本文件是你的应用的启动脚本，它运行在主进程上。你应用里的 package.json 看起来应该像：
+
+```
+{
+  "name"    : "Hello",
+  "version" : "0.1.0",
+  "main"    : "main.js"
+}
+```
+
+__注意：如果 main 字段没有在 package.json 声明，Electron会优先加载 index.js。__
+
+## main.js
+main.js 应该用于创建窗口和处理系统事件，一个典型的例子如下：
+```
+const electron = require('electron')
+// 控制应用生命周期的模块。
+const {app} = electron
+// 创建原生浏览器窗口的模块。
+const {BrowserWindow} = electron
+
+// 保持一个对于 window 对象的全局引用，如果你不这样做，
+// 当 JavaScript 对象被垃圾回收， window 会被自动地关闭
+let mainWindow
+
+function createWindow () {
+  // 创建浏览器窗口。
+  mainWindow = new BrowserWindow({width: 800, height: 600})
+
+  // 加载应用的 index.html。
+  mainWindow.loadURL(`file://${__dirname}/index.html`)
+
+  // 启用开发工具。
+  mainWindow.webContents.openDevTools()
+
+  // 当 window 被关闭，这个事件会被触发。
+  mainWindow.on('closed', () => {
+    // 取消引用 window 对象，如果你的应用支持多窗口的话，
+    // 通常会把多个 window 对象存放在一个数组里面，
+    // 与此同时，你应该删除相应的元素。
+    mainWindow = null
+  })
+}
+
+// Electron 会在初始化后并准备
+// 创建浏览器窗口时，调用这个函数。
+// 部分 API 在 ready 事件触发后才能使用。
+app.on('ready', createWindow)
+
+// 当全部窗口关闭时退出。
+app.on('window-all-closed', () => {
+  // 在 macOS 上，除非用户用 Cmd + Q 确定地退出，
+  // 否则绝大部分应用及其菜单栏会保持激活。
+  if (process.platform !== 'darwin') {
+    app.quit()
+  }
+})
+
+app.on('activate', () => {
+  // 在 macOS 上，当点击 dock 图标并且该应用没有打开的窗口时，
+  // 绝大部分应用会重新创建一个窗口。
+  if (mainWindow === null) {
+    createWindow()
+  }
+})
+
+// 在这文件，你可以续写应用剩下主进程代码。
+// 也可以拆分成几个文件，然后用 require 导入。
+```
+## index.html
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+  </body>
+</html>
+```
+
+## 运行应用
+
+已全局安装 __electron-prebuilt__ 后，使用下面的命令运行，并具有调试功能
+
+```
+electron .
+```
+
+# 应用打包
+
+## 打包应用外壳
+
+### 1. 全局安装打包工具 electron-packager
+```
+npm install electron-packager -g
+```
+
+### 2. 打包
+```
+//进入到项目目录
+cd hello
+
+//执行打包命令
+electron-packager . Hello --linux --overwrite
+
+//windows应用图标参数
+--icon=./hello/images/icon.ico"
+
+//Mac应用图标参数
+--icon=./hello/images/icon.icns"
+
+```
+
+### 3. 打包命令及参数说明
+```
+electron-packager <location of project> <name of project> <platform> <architecture> <electron version> <optional options>
+
+```
+
++ location of project：项目所在路径 
++ name of project：打包的项目名字 
++ platform：确定了你要构建哪个平台的应用（Windows、Mac 还是 Linux） 
++ architecture：决定了使用 x86 还是 x64 还是两个架构都用 
++ electron version：electron 的版本 
++ optional options：可选选项
+
+第一次打包应用需要比较久的时间，因为所有平台的二进制文件都需要下载，之后打包应用会比较快了。
+
+
+### 4. 文档
+
+[electron-packager官方文档](https://github.com/electron-userland/electron-packager)
+
+
+## asar应用打包
+
+为舒缓 Windows 下路径名过长的问题issues， 也略对 require 加速以及简单隐匿你的源代码，你可以通过极小的源代码改动将你的应用打包成 asar。
+
+asar 是一种将多个文件合并成一个文件的类 tar 风格的归档格式。 Electron 可以无需解压，即从其中读取任意文件内容。
+
+### 1. 安装 asar
+```
+npm install -g asar
+```
+
+### 2. 用 asar pack 打包 以 hello 项目文件夹为例
+```
+asar pack hello app.asar
+```
+### 3. 使用 asar 包
+将生成好的 __app.asar__ 放入 通过 __electron-packager__ 打包生成的 `resources` 目录中：
+```
+hello-linux-ia32/
+└── resources
+```
+
+### 4. 运行应用
+进入 `hello-linux-ia32` 直接双击 __Hello__ 运行

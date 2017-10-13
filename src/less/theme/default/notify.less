@@ -1,0 +1,337 @@
+//notify
+.notifyjs-metro-base {
+    position: relative;
+    min-height: 52px;
+    min-width: 250px;
+    color: #444;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    -webkit-animation: dropdownOpen 0.3s ease-out;
+    -o-animation: dropdownOpen 0.3s ease-out;
+    animation: dropdownOpen 0.3s ease-out;
+}
+
+.notifyjs-metro-base .image {
+    display: table;
+    position: absolute;
+    height: auto;
+    width: auto;
+    left: 25px;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.notifyjs-metro-base .text-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 10px 10px 10px 52px;
+    clear: both;
+}
+
+.notifyjs-metro-base .title {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.notifyjs-metro-base .fa {
+    font-size: 30px;
+}
+
+.notifyjs-metro-base .text {
+    font-size: 12px;
+    font-weight: normal;
+    vertical-align: middle;
+    max-width: 360px;
+}
+
+.notifyjs-metro-cool {
+    color: #fafafa !important;
+    background-color: #4A525F;
+    border: 1px solid #4A525F;
+}
+
+.notifyjs-corner {
+    top: 50px !important;
+}
+
+
+
+
+
+
+
+
+/* Dropdown */
+
+@-webkit-keyframes dropdownOpen {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@-moz-keyframes dropdownOpen {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0);
+    }
+    100% {
+        -moz-transform: scale(1);
+    }
+}
+
+@-o-keyframes dropdownOpen {
+    0% {
+        opacity: 0;
+        -o-transform: scale(0);
+    }
+    100% {
+        -o-transform: scale(1);
+    }
+}
+
+@keyframes dropdownOpen {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.layer-sw-ui-alert {
+    &:not(.noTitle) {
+        width: 528px;
+        padding: 16px 16px 24px 16px;
+        padding-right: 8px;
+        border-radius: 3px;
+        .layui-layer-title {
+            border-bottom: none;
+            padding: 0;
+            line-height: normal;
+            height: auto;
+            position: relative;
+            padding-left: 34px;
+            &:after {
+                content: "\e657";
+                font-family: "iconfont";
+                position: absolute;
+                left: 0;
+                font-size: 24px;
+
+                top: -3px;
+                color: @success;
+            }
+        }
+        .layui-layer-content {
+            font-size: 12px;
+            padding-left: 34px;
+            padding-top: 9px;
+            padding-bottom: 0;
+            color: #666;
+        }
+        .layui-layer-setwin {
+            right: 5px;
+            .layui-layer-ico:after {
+                content: "\e63c";
+                font-family: "iconfont";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: #EBF7F2;
+                color: @defaultFontColor;
+            }
+        }
+        .layui-layer-btn {
+            display: none;
+        }
+        &.layer-alert-success {
+            background: #EBF7F2;
+            border: 1px solid #CEECE0;
+            .layui-layer-title {
+                background: #EBF7F2;
+            }
+        }
+        &.layer-alert-error {
+            background: #F7D5CF;
+            border: 1px solid #F1B3A7;
+            .layui-layer-title {
+                background: #F7D5CF;
+                &:after {
+                    content: "\e65b";
+                    color: @danger;
+                }
+            }
+            .layui-layer-setwin {
+                .layui-layer-ico:after {
+                    background: #F7D5CF;
+                }
+            }
+        }
+        &.layer-alert-message {
+            background: #E9F0F7;
+            border: 1px solid #CADAEC;
+            .layui-layer-title {
+                background: #E9F0F7;
+                &:after {
+                    content: "\e65e";
+                    color: @primary;
+                }
+            }
+            .layui-layer-setwin {
+                .layui-layer-ico:after {
+                    background: #E9F0F7;
+                }
+            }
+        }
+        &.layer-alert-warning {
+            background: #FEF4E5;
+            border: 1px solid #FCE5C0;
+            .layui-layer-title {
+                background: #FEF4E5;
+                &:after {
+                    content: "\e65d";
+                    color: @warning;
+                }
+            }
+            .layui-layer-setwin {
+                .layui-layer-ico:after {
+                    background: #FEF4E5;
+                }
+            }
+        }
+    }
+    &.noTitle {
+        background: #EBF7F2;
+        .layui-layer-content {
+            padding: 8px;
+            padding-left: 45px;
+            padding-right: 27px;
+            line-height: normal;
+            position: relative;
+            font-size: 12px;
+            color: #666;
+            &:after {
+                content: "\e657";
+                font-family: "iconfont";
+                position: absolute;
+                left: 12px;
+                font-size: 30px;
+                top: 2px;
+                color: @success;
+            }
+        }
+        .layui-layer-setwin {
+            top: 30px;
+            right: 25px;
+            .layui-layer-ico {
+                right: -25px;
+                top: -20px;
+                width: 18px;
+                height: 18px;
+                &:after {
+                    content: "\e63c";
+                    font-family: "iconfont";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #EBF7F2;
+                    color: @defaultFontColor;
+                }
+            }
+        }
+        .layui-layer-btn {
+            display: none;
+        }
+        &.layer-alert-success {
+            background: #EBF7F2;
+            border: 1px solid #CEECE0;
+            .layui-layer-setwin {
+                .layui-layer-ico {
+                    &:after {
+                        background: #EBF7F2;
+                    }
+                }
+            }
+        }
+        &.layer-alert-error {
+            background: #F7D5CF;
+            border: 1px solid #F1B3A7;
+            .layui-layer-content {
+                background: #F7D5CF;
+                &:after {
+                    content: "\e65b";
+                    color: @danger;
+                }
+            }
+            .layui-layer-setwin {
+                .layui-layer-ico {
+                    &:after {
+                        background: #F7D5CF;
+                    }
+                }
+            }
+        }
+        &.layer-alert-message {
+            background: #E9F0F7;
+            border: 1px solid #CADAEC;
+            .layui-layer-content {
+                background: #E9F0F7;
+                &:after {
+                    content: "\e65e";
+                    color: @primary;
+                }
+            }
+            .layui-layer-setwin {
+                .layui-layer-ico {
+                    &:after {
+                        background: #E9F0F7;
+                    }
+                }
+            }
+        }
+        &.layer-alert-warning {
+            background: #FEF4E5;
+            border: 1px solid #FCE5C0;
+            .layui-layer-content {
+                background: #FEF4E5;
+                &:after {
+                    content: "\e65d";
+                    color: @warning;
+                }
+            }
+            .layui-layer-setwin {
+                .layui-layer-ico {
+                    &:after {
+                        background: #FEF4E5;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+<div class="mutilView-iframe-container {[skin]}">
+	<div class="swiper-container arrowsTablist">
+		<div class="arrow pre">
+        <span class="arrowInner">
+            <i class="iconfont icon-xiangzuojiantou"></i>
+        </span>    
+    </div>
+    <div class="arrow next">
+        <span class="arrowInner">
+        <i class="iconfont icon-xiangyoujiantou"></i>
+        </span>
+    </div>
+		<ul id="mutilView-nav" class="nav nav-tabs navTablist swiper-wrapper" role="tablist"></ul>
+	</div>
+	<div id="mutilView-content" class="tab-content"></div>
+</div>
+<script type="text/html" id="mutilView-iframe-tpl">
+	<div role="tabpanel" class="tab-pane {{if id=='0'}}active{{/if}}" id="mutilViews-tab-{{id}}">
+		<div class="mutilView-iframe-view card-box">
+			<iframe allowfullscreen name="mutilviews" style="width:100%;height:400px;" class="mutilView-iframe" src="{{url}}"></iframe>
+		</div>
+	</div>
+</script>
+<script type="text/html" id="navs-tpl">
+		<li role="presentation" class="{{if id=='0'}}active{{/if}} swiper-slide">
+    	<a id="mutilViews-nav-{{id}}" href="#mutilViews-tab-{{id}}" aria-controls="mutilViews-tab-{{id}}" role="tab" data-toggle="tab">
+    		{{name}}
+    		<span class="deletetab" data-id="{{id}}"><i class="iconfont icon-guanbi iconRight"></i></span>
+    	</a>
+    </li>
+</script>

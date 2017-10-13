@@ -1,0 +1,51 @@
+@import "touchspin-config.less";
+
+.bootstrap-touchspin
+{
+  input,.form-control
+  {
+     border: 1px solid @input-border;
+  }
+  .btn
+  {
+    &.btn-default
+    {
+      border-color: @btn-default-border;
+    }
+  }
+  .input-group-btn-vertical .bootstrap-touchspin-down
+  {
+    margin-top: 0;
+    border-top-color: transparent;
+  }
+  .input-group-btn-vertical > .btn
+  {
+    padding: 7px 10px;
+
+  }
+  .input-group-btn-vertical i
+  {
+    line-height: 9px;
+  }
+
+
+  &.input-group-lg
+  {
+    .input-group-btn-vertical > .btn
+    {
+      padding: 8px 10px;
+    }
+  }
+  &.input-group-sm
+  {
+    .input-group-btn-vertical > .btn
+    {
+      padding: 5px 9px 6px 9px;
+      i
+      {
+        left: 3px;
+        top: 2px;
+      }
+    }
+  }
+}

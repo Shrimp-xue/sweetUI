@@ -1,0 +1,28 @@
+<ul id="fm-ul-{[idField]}" data-parentIdField="{[parentIdField]}"  class="fm-ul-level-{[levelField]} {[if typeof(parentIdField)!='undefined'&&!isBlock]}collapse{[/if]} {[if isBlock]}fm-ul-block{[/if]}" {[if swLevel>1]}role="tabpanel"{[/if]}>
+    {[each children]}
+    {[if $value.groupField]}
+    <li class="fm-group">{[$value.groupField]}</li>
+    {[/if]}
+    {[if $value.isMenu]}
+    <li {[if $value.groupField]}data-role="group"{[/if]} class="fm-item fm-level-{[$value.levelField]} {[$value.swLevel==2?'hover-li':'']}" id="fm-li-{[$value.idField]}">
+        {[if $value.nameField]}
+            {[if $value.isBlock&&$value.children&&$value.children.length!=0]}
+            <a  data-parent="#fm-ul-{[idField]}" class="fm-block fm-title {[if $value.children&&$value.children.length!=0]}has-children{[/if]} " id="fm-{[$value.idField]}">
+                <i class="fm-icon {[$value.icon]}"></i>
+                <span class="fm-text">{[$value.nameField]}</span>
+            </a>
+            {[else]}
+            <a role="tab" data-toggle="collapse" data-parent="#fm-ul-{[idField]}" {[if $value.url]}href="{[$value.url]}"{[/if]} data-target="#fm-ul-{[$value.idField]}" class="fm-title waves-effect waves-light {[if $value.children&&$value.children.length!=0]}has-children accordion-toggle{[/if]} "
+            data-id="{[$value.idField]}" id="fm-{[$value.idField]}">
+                <i class="fm-icon {[$value.icon]}"></i>
+                <span class="fm-text">{[$value.nameField]}</span>
+            </a>
+            {[/if]}
+        {[/if]}
+        {[if $value.children]}
+            {[include './template.html' $value]}
+        {[/if]}
+    </li>
+    {[/if]}
+    {[/each]}
+</ul>

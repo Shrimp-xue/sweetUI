@@ -1,0 +1,28 @@
+{
+	"i18n-demo":{
+		"title":"Internationalization",
+		"box1":{
+			"top":{
+				"title":"No Refresh Translate",
+				"text":"No refresh language is applied to the underlying text as well as the underlying components. For complex interactive components, refresh switching language is required."
+			},
+			"title":"Demonstration",
+			"chinese":"Chinese",
+			"English":"English"
+		},
+		"box2":{
+			"title":"plugin&element",
+			"contain":{
+				"title1":"$t(common.title)1",
+				"title2":"$t(common.title)2",
+				"button1":"$t(common.button)1",
+				"button2":"$t(common.button)2"
+			}
+		}
+	},
+	"common":{
+		"title":"this is title",
+		"button":"button",
+		"code":"code"
+	}
+}

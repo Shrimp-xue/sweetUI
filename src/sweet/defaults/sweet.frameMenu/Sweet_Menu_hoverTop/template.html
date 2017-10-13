@@ -1,0 +1,16 @@
+<div class="frame-hovertop-inner {[if levelField >= 1]}children-box{[/if]}">
+	<ul>
+		{[each children item]}
+		{[if item.isMenu]}
+		<li>
+			<a class="fm-title frame-hovertop-item {[if item.children]}has-children{[/if]}" href="{[item.url?item.url:'javascript:;']}" data-id="{[item.idField]}" id="fm-{[item.idField]}">
+				{[item.nameField]}
+			</a>
+			{[if item.children]}
+			{[include './template.html' item]}
+			{[/if]}
+		</li>
+		{[/if]}
+		{[/each]}
+	</ul>
+</div>

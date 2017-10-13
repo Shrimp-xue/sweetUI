@@ -1,0 +1,101 @@
+@import "ztree/ztree.less";
+@sTreePadding : 12px 10px;
+@sTreeTop:40px;
+@sTreeOffsetLeft: 22px;
+@sTreeCounter: 5;
+.sTreeloop(@sTreeCounter) when (@sTreeCounter > 1) {
+    .sTreeloop((@sTreeCounter - 1)); // 递归调用自身
+    &.level@{sTreeCounter}{
+    		padding-left: @sTreeOffsetLeft+(@sTreeCounter - 1)*10 !important;
+		}
+}
+
+
+.ztree {
+    width: 200px;
+    & * {
+        font-size: 14px;
+        font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif
+    }
+    
+    li {
+        position: relative;
+        background-color: #F7F7F7;
+        ul {
+            padding: 0;
+            border-bottom: 1px solid #EEEEEE;
+            a {
+                padding-left: @sTreeOffsetLeft !important;
+                .sTreeloop(@sTreeCounter);
+                &.curSelectedNode.nochildNode {
+                    background: inherit;
+                    border-bottom-color: #EEEEEE !important;
+                    color: #40A2DB;
+                }
+                &.nochildNode.curSelectedNode:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    height: 100%;
+                    width: 3px;
+                    left: 0;
+                    top: 0;
+                    background: #40A2DB;
+                    z-index: 999;
+                }
+            }
+        }
+        span {
+            line-height: inherit;
+            &.button {
+                position: absolute;
+                right: 0px;
+                top: 0;
+                z-index: 999;
+            }
+            &.button.switch {
+                width: @sTreeTop;
+                height: @sTreeTop;
+                text-align: center;
+                line-height: @sTreeTop;
+                background: transparent;
+                font-family: "Ionicons";
+            }
+        }
+        a {
+            vertical-align: middle;
+            height: auto !important;
+            display: block;
+            padding: @sTreePadding !important;
+            padding-right: 28px !important;
+            font-size: 15px;
+            border: 0 !important;
+            border-bottom: 1px solid #EEEEEE !important;
+            text-decoration: none;
+            box-sizing: border-box;
+            position: relative;
+            cursor: pointer;
+            &:hover {
+                text-decoration: none;
+            }
+            &.curSelectedNode {
+                background: #40A2DA;
+                color: white;
+                border-bottom-color: transparent !important;
+                text-decoration: none;
+            }
+        }
+        &:last-child a {
+            border-bottom: 0 !important;
+        }
+    }
+}
+.ztree li span.button.switch.noline_open:after {
+    content: "\f209";
+}
+.ztree li span.button.switch.noline_close:after {
+    content: "\f218";
+}
+.ztree li span.button.switch.noline_docu:after {
+    content: '';
+}

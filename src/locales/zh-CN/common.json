@@ -1,0 +1,28 @@
+{
+	"i18n-demo":{
+		"title":"国际化",
+		"box1":{
+			"top":{
+				"title":"无刷新切换",
+				"text":"无刷新切换语言适用于基础的文本以及基础的组件，对于复杂的交互组件需采用刷新切换语言功能。"
+			},
+			"title":"演示",
+			"chinese":"简体中文",
+			"English":"英文"
+		},
+		"box2":{
+			"title":"组件/元素部分",
+			"contain":{
+				"title1":"$t(common.title)1",
+				"title2":"$t(common.title)2",
+				"button1":"$t(common.button)1",
+				"button2":"$t(common.button)2"
+			}
+		}
+	},
+	"common":{
+		"title":"标题",
+		"button":"按钮",
+		"code":"代码"
+	}
+}

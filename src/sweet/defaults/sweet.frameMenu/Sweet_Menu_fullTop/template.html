@@ -1,0 +1,22 @@
+{[each children item]}
+{[if item.isMenu]}
+<div class="frame-navs-inner">
+{[if item.url&&!item.children]}
+<a  href="{[item.url?item.url:'javascript:;']}" data-id="{[item.idField]}" id="fm-{[item.idField]}" class="frame-fulltop-item m-0">{[item.nameField]}</a>
+{[else]}
+<p  class="text-muted">{[item.nameField]}</p>
+{[/if]}
+{[if item.children]}
+<ul>
+	{[each item.children key]}
+	{[if key.isMenu]}
+	<li>
+		<a href="{[key.url]}" id="fm-{[key.idField]}" data-id="{[item.idField]}" class="frame-fulltop-item">{[key.nameField]}</a>
+	</li>
+	{[/if]}
+	{[/each]}
+</ul>
+{[/if]}
+</div>
+{[/if]}
+{[/each]}
